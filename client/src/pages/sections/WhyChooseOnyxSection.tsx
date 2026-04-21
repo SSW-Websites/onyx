@@ -16,27 +16,27 @@ const stats = [
 export const WhyChooseOnyxSection = (): JSX.Element => {
   return (
     <section className="relative w-full bg-white">
-      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-[minmax(0,1fr)_minmax(420px,942px)]">
-        <div className="flex items-center justify-center px-6 py-12 sm:px-10 md:px-14 lg:px-16 xl:px-[88px]">
-          <div className="w-full max-w-[715px]">
-            <header className="max-w-[649px]">
-              <h2 className="[font-family:'Montserrat',Helvetica] text-[38px] font-bold leading-[0.92] tracking-[0.12em] text-black sm:text-[48px] lg:text-[61.7px] lg:tracking-[6.79px]">
+      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-2 2xl:grid-cols-[minmax(0,1fr)_942px]">
+        <div className="flex flex-col items-start justify-start px-6 py-12 sm:px-10 md:px-14 lg:px-10 lg:pt-[60px] xl:pl-12 xl:pt-[72px] 2xl:pl-20 2xl:pt-[85px]">
+          <div className="w-full max-w-[820px]">
+            <header className="max-w-full">
+              <h2 className="[font-family:'Montserrat',Helvetica] text-[32px] font-bold uppercase leading-[1.05] tracking-[0.08em] text-black sm:text-[40px] lg:text-[26px] lg:leading-[1.1] lg:tracking-[1.5px] xl:text-[34px] xl:tracking-[2px] 2xl:text-[44px] 2xl:tracking-[3px]">
                 A TEAM
                 <br />
                 BUILT TO HELP AGENTS GROW
               </h2>
             </header>
-            <div className="mt-8 max-w-[715px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.35] text-black sm:text-[18px] lg:mt-[62px] lg:text-[26px]">
+            <div className="mt-6 max-w-[715px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.35] text-black sm:text-[18px] lg:mt-[36px] lg:text-[20px] lg:leading-[1.3] xl:text-[23px] 2xl:text-[26px] 2xl:leading-[1.25]">
               <p>
                 Since 2020, Onyx Homes has helped serious agents grow with real
                 production, real support, and a stronger team behind them.
               </p>
-              <ul className="mt-6 space-y-3 lg:mt-8 lg:space-y-2">
+              <ul className="mt-6 space-y-4 lg:mt-8 lg:space-y-6 2xl:space-y-7">
                 {highlights.map((item) => (
-                  <li key={item} className="flex items-start gap-2">
+                  <li key={item} className="flex items-start gap-3">
                     <span
                       aria-hidden="true"
-                      className="[font-family:'Inter',Helvetica] text-base font-bold leading-none text-black lg:text-[26px]"
+                      className="[font-family:'Inter',Helvetica] text-base font-bold leading-[1.3] text-black lg:text-[20px] xl:text-[23px] 2xl:text-[26px]"
                     >
                       ✓
                     </span>
@@ -48,7 +48,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
             <Button
               type="button"
               onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
-              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-[66px] lg:min-h-28 lg:w-[485px] lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
+              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[88px] lg:min-h-0 lg:w-[420px] lg:px-0 lg:text-[20px] lg:tracking-[2.2px] xl:h-[112px] xl:w-[485px] xl:text-[24.3px] xl:leading-[22.4px] xl:tracking-[2.67px]"
             >
               BOOK YOUR INTERVIEW
             </Button>
