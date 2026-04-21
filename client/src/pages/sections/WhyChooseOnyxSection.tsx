@@ -16,7 +16,7 @@ const stats = [
 export const WhyChooseOnyxSection = (): JSX.Element => {
   return (
     <section className="relative w-full bg-white">
-      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-2 2xl:grid-cols-[minmax(0,1fr)_942px]">
+      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-[minmax(440px,1fr)_minmax(0,942px)]">
         <div className="flex flex-col items-start justify-start px-6 py-12 sm:px-10 md:px-14 lg:px-10 lg:pt-[60px] xl:pl-12 xl:pt-[72px] 2xl:pl-20 2xl:pt-[85px]">
           <div className="w-full max-w-[820px]">
             <header className="max-w-full">
@@ -48,7 +48,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
             <Button
               type="button"
               onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
-              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[88px] lg:min-h-0 lg:w-[420px] lg:px-0 lg:text-[20px] lg:tracking-[2.2px] xl:h-[112px] xl:w-[485px] xl:text-[24.3px] xl:leading-[22.4px] xl:tracking-[2.67px]"
+              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[112px] lg:min-h-0 lg:w-[485px] lg:px-0 lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
             >
               BOOK YOUR INTERVIEW
             </Button>
