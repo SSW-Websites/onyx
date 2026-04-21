@@ -38,26 +38,19 @@ export const InterviewCTASection = (): JSX.Element => {
           </div>
         </header>
         <div className="relative z-10 grid flex-1 grid-cols-1 border border-white/20 sm:grid-cols-2 lg:grid-cols-3">
-          {sideCards.map((card, index) => (
-            <Card
-              key={card.title}
-              className={`rounded-none border-y-0 bg-transparent shadow-none ${
-                index === 0
-                  ? "border-l-0 border-r border-transparent"
-                  : "border-l border-r-0 border-transparent"
-              } ${card.borderClass}`}
-            >
-              <CardContent className="flex min-h-[320px] items-end p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
-                <h3
-                  className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
-                    card.underline ? "underline" : ""
-                  }`}
-                >
-                  {card.title}
-                </h3>
-              </CardContent>
-            </Card>
-          ))}
+          <Card
+            className={`rounded-none border-y-0 border-l-0 border-r border-transparent bg-transparent shadow-none ${sideCards[0].borderClass}`}
+          >
+            <CardContent className="flex min-h-[320px] items-end p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+              <h3
+                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
+                  sideCards[0].underline ? "underline" : ""
+                }`}
+              >
+                {sideCards[0].title}
+              </h3>
+            </CardContent>
+          </Card>
 
           <Card className="rounded-none border-x border-y-0 border-[#ebf3ff] bg-[#172734] shadow-none sm:col-span-2 lg:col-span-1">
             <CardContent className="relative flex min-h-[320px] overflow-hidden p-0 sm:min-h-[360px] lg:min-h-[491px]">
@@ -68,6 +61,10 @@ export const InterviewCTASection = (): JSX.Element => {
                 loading="lazy"
                 width="487"
                 height="491"
+              />
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 bg-[linear-gradient(47.69deg,rgba(238,247,255,0.92)_36.7%,rgba(238,247,255,0.55)_75%,rgba(24,39,53,0)_100%)]"
               />
               <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
                 <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[30px] font-bold leading-[0.9] tracking-[0] text-[#233240] sm:text-[34px] lg:text-[40px] lg:leading-[36.1px]">
@@ -84,6 +81,20 @@ export const InterviewCTASection = (): JSX.Element => {
                   </span>
                 </p>
               </div>
+            </CardContent>
+          </Card>
+
+          <Card
+            className={`rounded-none border-y-0 border-l border-r-0 border-transparent bg-transparent shadow-none ${sideCards[1].borderClass}`}
+          >
+            <CardContent className="flex min-h-[320px] items-end p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+              <h3
+                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
+                  sideCards[1].underline ? "underline" : ""
+                }`}
+              >
+                {sideCards[1].title}
+              </h3>
             </CardContent>
           </Card>
         </div>
