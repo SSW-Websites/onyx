@@ -24,11 +24,11 @@ export const AgentCriteriaSection = (): JSX.Element => {
       <div className="mx-auto max-w-[1400px] px-4 py-3 sm:px-6 lg:px-8">
         <Card className="border-0 bg-transparent shadow-none">
           <CardContent className="p-0">
-            <div className="grid min-h-[181px] grid-cols-3 items-center">
+            <div className="grid min-h-[181px] grid-cols-3 items-center gap-x-6 sm:gap-x-10 lg:gap-x-16">
               {stats.map((stat, index) => (
                 <div
                   key={stat.label}
-                  className={`flex min-w-0 flex-col items-center justify-center px-3 py-8 text-center ${
+                  className={`flex min-w-0 flex-col items-center justify-center px-4 py-8 text-center sm:px-8 lg:px-12 ${
                     index < stats.length - 1 ? "border-r border-white/60" : ""
                   }`}
                 >
