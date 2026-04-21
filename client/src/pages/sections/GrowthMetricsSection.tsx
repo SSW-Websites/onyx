@@ -1,8 +1,3 @@
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -10,17 +5,26 @@ const agentAvatars = [
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-people-in-orange-county--611-1.png",
     alt: "Agent portrait",
-    fallback: "A1",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -26,
+    offsetY: -25,
   },
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-single-person-in-orange--611-3.png",
     alt: "Agent portrait",
-    fallback: "A2",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -58,
+    offsetY: -38,
   },
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-single-person-in-orange--611-3.png",
     alt: "Agent portrait",
-    fallback: "A3",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -113,
+    offsetY: -25,
   },
 ];
 
@@ -32,19 +36,24 @@ export const GrowthMetricsSection = (): JSX.Element => {
           <div className="flex items-center">
             <div className="flex items-center">
               {agentAvatars.map((avatar, index) => (
-                <Avatar
+                <div
                   key={`${avatar.src}-${index}`}
-                  className={`h-9 w-9 border-[2.34px] border-[#f2f2f2] bg-[#f9ffed] ${
+                  className={`relative h-9 w-9 shrink-0 overflow-hidden rounded-full border-[2.34px] border-[#f2f2f2] bg-[#f9ffed] ${
                     index > 0 ? "-ml-[7px]" : ""
                   }`}
                 >
-                  <AvatarImage
+                  <img
                     src={avatar.src}
                     alt={avatar.alt}
-                    className="object-cover"
+                    className="absolute max-w-none"
+                    style={{
+                      width: `${avatar.imgWidth}px`,
+                      height: `${avatar.imgHeight}px`,
+                      left: `${avatar.offsetX}px`,
+                      top: `${avatar.offsetY}px`,
+                    }}
                   />
-                  <AvatarFallback>{avatar.fallback}</AvatarFallback>
-                </Avatar>
+                </div>
               ))}
             </div>
             <p className="ml-[13px] [font-family:'SF_Pro-Medium',Helvetica] text-[13px] font-normal tracking-[-0.65px] text-[#1f3040] sm:text-[15px] sm:leading-[18px] md:text-[19.6px] md:leading-[21.9px] md:tracking-[-0.98px]">
