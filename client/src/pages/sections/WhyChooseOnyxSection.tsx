@@ -16,11 +16,11 @@ const stats = [
 export const WhyChooseOnyxSection = (): JSX.Element => {
   return (
     <section className="relative w-full bg-white">
-      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-[minmax(440px,1fr)_minmax(0,942px)]">
-        <div className="flex flex-col items-start justify-start px-6 py-12 sm:px-10 md:px-14 lg:px-10 lg:pt-[60px] xl:pl-12 xl:pt-[72px] 2xl:pl-20 2xl:pt-[85px]">
+      <div className="mx-auto grid min-h-[806px] w-full max-w-[1920px] grid-cols-1 overflow-hidden lg:grid-cols-[minmax(0,1fr)_minmax(420px,942px)]">
+        <div className="flex flex-col items-start justify-start px-6 py-12 sm:px-10 md:px-14 lg:px-8 lg:pt-[56px] xl:pl-10 xl:pt-[72px] 2xl:pl-20 2xl:pt-[85px]">
           <div className="w-full max-w-[820px]">
             <header className="max-w-full">
-              <h2 className="[font-family:'Montserrat',Helvetica] text-[32px] font-bold uppercase leading-[1.05] tracking-[0.08em] text-black sm:text-[40px] lg:text-[26px] lg:leading-[1.1] lg:tracking-[1.5px] xl:text-[34px] xl:tracking-[2px] 2xl:text-[44px] 2xl:tracking-[3px]">
+              <h2 className="[font-family:'Montserrat',Helvetica] text-[32px] font-bold uppercase leading-[1.05] tracking-[0.08em] text-black sm:text-[40px] lg:text-[22px] lg:leading-[1.1] lg:tracking-[1px] xl:text-[34px] xl:tracking-[2px] 2xl:text-[52px] 2xl:tracking-[4px] [@media(min-width:1800px)]:text-[61.73px] [@media(min-width:1800px)]:tracking-[6.79px]">
                 A TEAM
                 <br />
                 BUILT TO HELP AGENTS GROW
