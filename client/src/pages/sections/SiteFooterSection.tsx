@@ -1,25 +1,29 @@
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 
 const agentAvatars = [
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-people-in-orange-county--611-1.png",
     alt: "Agent portrait 1",
-    fallback: "A1",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -26,
+    offsetY: -25,
   },
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-single-person-in-orange--611-3.png",
     alt: "Agent portrait 2",
-    fallback: "A2",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -58,
+    offsetY: -38,
   },
   {
     src: "/figmaAssets/freepik--make-3-different-photos-of-single-person-in-orange--611-3.png",
     alt: "Agent portrait 3",
-    fallback: "A3",
+    imgWidth: 150,
+    imgHeight: 86,
+    offsetX: -113,
+    offsetY: -25,
   },
 ];
 
@@ -30,21 +34,24 @@ export const SiteFooterSection = (): JSX.Element => {
         <div className="mb-5 flex items-center justify-center">
           <div className="flex items-center">
             {agentAvatars.map((avatar, index) => (
-              <Avatar
+              <div
                 key={avatar.src + index}
-                className={`h-9 w-9 rounded-[68.34px] border-[2.34px] border-solid border-[#f2f2f2] bg-[#f9ffed] ${
+                className={`relative h-9 w-9 shrink-0 overflow-hidden rounded-full border-[2.34px] border-solid border-[#f2f2f2] bg-[#f9ffed] ${
                   index > 0 ? "-ml-[7px]" : ""
                 }`}
               >
-                <AvatarImage
+                <img
                   src={avatar.src}
                   alt={avatar.alt}
-                  className="object-cover"
+                  className="absolute max-w-none"
+                  style={{
+                    width: `${avatar.imgWidth}px`,
+                    height: `${avatar.imgHeight}px`,
+                    left: `${avatar.offsetX}px`,
+                    top: `${avatar.offsetY}px`,
+                  }}
                 />
-                <AvatarFallback className="bg-[#f9ffed] text-[10px] text-[#1f3040]">
-                  {avatar.fallback}
-                </AvatarFallback>
-              </Avatar>
+              </div>
             ))}
           </div>
           <p className="ml-[13px] text-left [font-family:'SF_Pro-Medium',Helvetica] text-[19.6px] font-normal leading-[21.9px] tracking-[-0.98px] text-[#1f3040] max-sm:text-[14px] max-sm:leading-[18px] max-sm:tracking-[-0.4px]">
