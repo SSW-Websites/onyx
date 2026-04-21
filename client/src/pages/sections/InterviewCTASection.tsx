@@ -28,7 +28,8 @@ export const InterviewCTASection = (): JSX.Element => {
           <div className="flex justify-start lg:justify-center">
             <Button
               type="button"
-              className="h-auto min-h-28 w-full max-w-[485px] rounded-none bg-white px-6 py-10 text-black shadow-[0px_-5px_11px_#010e195e,0px_-20px_20px_#010e1952,0px_-44px_27px_#010e1930,0px_-79px_31px_#010e190f,0px_-123px_34px_#010e1903] hover:bg-white"
+              onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
+              className="h-auto min-h-28 w-full max-w-[485px] rounded-none bg-white px-6 py-10 text-black shadow-[0px_-5px_11px_#010e195e,0px_-20px_20px_#010e1952,0px_-44px_27px_#010e1930,0px_-79px_31px_#010e190f,0px_-123px_34px_#010e1903] hover:bg-gray-50 active:bg-gray-100 transition-colors"
             >
               <span className="w-full [font-family:'Montserrat',Helvetica] text-center text-[18px] font-bold leading-[22.4px] tracking-[2px] text-black sm:text-[20px] lg:text-[24.3px] lg:tracking-[2.67px]">
                 BOOK YOUR INTERVIEW
@@ -64,6 +65,9 @@ export const InterviewCTASection = (): JSX.Element => {
                 className="absolute inset-0 h-full w-full object-cover"
                 alt="Onyx Homes"
                 src="/figmaAssets/image-9.png"
+                loading="lazy"
+                width="487"
+                height="491"
               />
               <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
                 <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[30px] font-bold leading-[0.9] tracking-[0] text-[#233240] sm:text-[34px] lg:text-[40px] lg:leading-[36.1px]">

@@ -47,7 +47,8 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
             </div>
             <Button
               type="button"
-              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 sm:px-10 lg:mt-[66px] lg:min-h-28 lg:w-[485px] lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
+              onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
+              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-[66px] lg:min-h-28 lg:w-[485px] lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
             >
               BOOK YOUR INTERVIEW
             </Button>
@@ -59,6 +60,9 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
               className="absolute inset-0 h-full w-full object-cover object-center"
               alt="Onyx Homes team"
               src="/figmaAssets/screenshot-2026-04-16-at-7-05-09-pm-1.png"
+              loading="lazy"
+              width="942"
+              height="806"
             />
             <div className="absolute inset-0 bg-[linear-gradient(210deg,rgba(0,0,0,0.44)_0%,rgba(0,0,0,0.73)_100%)]" />
             <div className="relative z-10 flex w-full flex-col px-6 py-10 sm:px-10 lg:px-[90px] lg:py-0">

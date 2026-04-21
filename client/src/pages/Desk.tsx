@@ -23,15 +23,15 @@ export const Desk = (): JSX.Element => {
   return (
     <main className="relative flex w-full flex-col bg-white">
       {sections.map(({ id, component: SectionComponent }) => (
-        <section key={id} data-id={id} className="relative w-full">
+        <section key={id} id={id} data-id={id} className="relative w-full">
           <SectionComponent />
         </section>
       ))}
 
       <footer className="w-full bg-[#d5d5d5]">
         <Card className="rounded-none border-0 bg-transparent shadow-none">
-          <CardContent className="flex min-h-44 items-center justify-center px-4 py-6">
-            <p className="[font-family:'SF_Pro-Regular',Helvetica] text-center text-[26px] font-normal leading-[normal] tracking-[0] text-[#00020f] max-sm:text-base">
+          <CardContent className="flex min-h-28 items-center justify-center px-4 py-6">
+            <p className="font-['SF_Pro-Regular',sans-serif] text-center text-sm sm:text-lg lg:text-[26px] font-normal leading-normal text-[#00020f]">
               Christian Stubbs | Realtor® CA | DRE LIC# 02082942 | Onyx Homes
             </p>
           </CardContent>

@@ -83,24 +83,20 @@ export const GrowthMetricsSection = (): JSX.Element => {
             src="/figmaAssets/arrow-1.svg"
           />
         </div>
-        <Card className="mt-5 w-full max-w-[975px] rounded-none border-0 bg-[#1e1e1e] shadow-none">
-          <CardContent className="flex aspect-[975/548] items-center justify-center p-0">
-            <button
-              type="button"
-              aria-label="Play video"
-              className="flex items-center justify-center"
-            >
-              <img
-                className="h-[84px] w-[72.75px]"
-                alt="Polygon"
-                src="/figmaAssets/polygon-1.svg"
-              />
-            </button>
-          </CardContent>
-        </Card>
+        <div className="mt-5 w-full max-w-[975px] aspect-video rounded-none overflow-hidden bg-[#1e1e1e]">
+          <iframe
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/?rel=0&modestbranding=1"
+            title="Onyx Homes Agent Recruitment Video"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            loading="lazy"
+          />
+        </div>
         <Button
           type="button"
-          className="mt-8 h-auto min-h-[72px] w-full max-w-[750px] rounded-none bg-black px-6 py-5 [font-family:'Montserrat',Helvetica] text-center text-[20px] font-bold uppercase tracking-[2.2px] text-[#f2f2f2] hover:bg-black sm:text-[26px] sm:tracking-[2.8px] md:mt-10 md:min-h-[100px] md:text-[32px] md:tracking-[3.4px] lg:mt-[53px] lg:min-h-[133px] lg:text-[37.6px] lg:tracking-[4.14px] lg:leading-[34.7px]"
+          onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
+          className="mt-8 h-auto min-h-[72px] w-full max-w-[750px] rounded-none bg-black px-6 py-5 [font-family:'Montserrat',Helvetica] text-center text-[20px] font-bold uppercase tracking-[2.2px] text-[#f2f2f2] hover:bg-black/90 active:bg-black/80 transition-colors sm:text-[26px] sm:tracking-[2.8px] md:mt-10 md:min-h-[100px] md:text-[32px] md:tracking-[3.4px] lg:mt-[53px] lg:min-h-[133px] lg:text-[37.6px] lg:tracking-[4.14px] lg:leading-[34.7px]"
         >
           BOOK YOUR INTERVIEW
         </Button>
