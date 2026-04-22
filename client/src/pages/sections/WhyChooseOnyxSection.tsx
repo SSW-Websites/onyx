@@ -1,3 +1,4 @@
+import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -34,12 +35,11 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
               <ul className="mt-6 space-y-4 lg:mt-8 lg:space-y-6 2xl:space-y-7">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <span
+                    <Check
                       aria-hidden="true"
-                      className="[font-family:'Inter',Helvetica] text-base font-bold leading-[1.3] text-black lg:text-[20px] xl:text-[23px] 2xl:text-[26px]"
-                    >
-                      ✓
-                    </span>
+                      strokeWidth={3}
+                      className="mt-1 h-4 w-4 shrink-0 text-black lg:h-5 lg:w-5 xl:h-6 xl:w-6"
+                    />
                     <span>{item}</span>
                   </li>
                 ))}
