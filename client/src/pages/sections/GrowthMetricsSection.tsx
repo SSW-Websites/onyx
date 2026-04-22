@@ -38,8 +38,8 @@ export const GrowthMetricsSection = (): JSX.Element => {
               {agentAvatars.map((avatar, index) => (
                 <div
                   key={`${avatar.src}-${index}`}
-                  className={`relative h-9 w-9 shrink-0 overflow-hidden rounded-full border-[2.34px] border-[#f2f2f2] bg-[#f9ffed] ${
-                    index > 0 ? "-ml-[7px]" : ""
+                  className={`relative h-6 w-6 shrink-0 overflow-hidden rounded-full border-[1.5px] border-[#f2f2f2] bg-[#f9ffed] sm:h-9 sm:w-9 sm:border-[2.34px] ${
+                    index > 0 ? "-ml-[5px] sm:-ml-[7px]" : ""
                   }`}
                 >
                   <img
@@ -56,7 +56,7 @@ export const GrowthMetricsSection = (): JSX.Element => {
                 </div>
               ))}
             </div>
-            <p className="ml-[13px] [font-family:'SF_Pro-Medium',Helvetica] text-[13px] font-normal tracking-[-0.65px] text-[#1f3040] sm:text-[15px] sm:leading-[18px] md:text-[19.6px] md:leading-[21.9px] md:tracking-[-0.98px]">
+            <p className="ml-2 whitespace-nowrap [font-family:'SF_Pro-Medium',Helvetica] text-[9.5px] font-normal tracking-[-0.2px] text-[#1f3040] sm:ml-[13px] sm:whitespace-normal sm:text-[15px] sm:leading-[18px] sm:tracking-[-0.65px] md:text-[19.6px] md:leading-[21.9px] md:tracking-[-0.98px]">
               <span className="font-medium tracking-[-0.19px]">
                 For full-time real estate agents in
               </span>
