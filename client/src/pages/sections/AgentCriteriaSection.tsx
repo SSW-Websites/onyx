@@ -36,7 +36,7 @@ export const AgentCriteriaSection = (): JSX.Element => {
                     {stat.value}
                   </p>
                   <p
-                    className={`mt-2 [font-family:'Montserrat',Helvetica] font-bold text-white text-[12px] leading-[1.15] tracking-[0.6px] sm:text-[14px] sm:tracking-[0.7px] lg:text-[20.6px] lg:leading-[49px] lg:tracking-[1.03px] ${
+                    className={`mt-2 [font-family:'Montserrat',Helvetica] font-bold text-white text-[10px] leading-[1.15] tracking-[0.5px] sm:text-[13px] sm:tracking-[0.7px] lg:text-[20.6px] lg:leading-[49px] lg:tracking-[1.03px] ${
                       stat.label === "HELPING AGENTS GROW"
                         ? "whitespace-normal lg:whitespace-nowrap"
                         : "whitespace-nowrap"

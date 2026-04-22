@@ -77,7 +77,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
                       {stat.label}
                     </div>
                     <div
-                      className={`[font-family:'Montserrat',Helvetica] text-[44px] font-bold leading-none text-white sm:text-[64px] lg:mt-[10px] lg:text-[108.2px] ${
+                      className={`[font-family:'Montserrat',Helvetica] text-[56px] font-bold leading-none text-white sm:text-[72px] lg:mt-[10px] lg:text-[108.2px] ${
                         index === 0
                           ? "mt-2 tracking-[-0.06em] lg:tracking-[-6.49px]"
                           : "mt-2 tracking-[0]"
