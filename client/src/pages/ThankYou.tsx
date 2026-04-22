@@ -121,7 +121,7 @@ export const ThankYou = (): JSX.Element => {
       <footer className="w-full bg-[#d5d5d5]">
         <Card className="rounded-none border-0 bg-transparent shadow-none">
           <CardContent className="flex min-h-28 items-center justify-center px-4 py-6">
-            <p className="whitespace-nowrap font-['SF_Pro-Regular',sans-serif] text-center text-[11px] sm:text-lg sm:whitespace-normal lg:text-[26px] font-normal leading-normal text-[#00020f]">
+            <p className="whitespace-nowrap font-['SF_Pro-Regular',sans-serif] text-center text-[11px] sm:whitespace-normal sm:text-[13px] lg:text-[14px] font-normal leading-normal text-[#00020f]">
               Christian Stubbs | Realtor® CA | DRE LIC# 02082942 | Onyx Homes
             </p>
           </CardContent>
