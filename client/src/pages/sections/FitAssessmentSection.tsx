@@ -37,7 +37,7 @@ export const FitAssessmentSection = (): JSX.Element => {
                         className={[
                           "flex items-center justify-center text-center md:justify-start md:text-left [font-family:'Montserrat',Helvetica] font-bold text-black tracking-[0]",
                           index === 2
-                            ? "min-h-[62px] text-[18px] leading-[1.15] sm:min-h-[72px] sm:text-[24px] lg:min-h-[84px] lg:text-[37px] lg:leading-[100.1px]"
+                            ? "min-h-[52px] text-[12px] leading-[1.2] sm:min-h-[72px] sm:text-[24px] lg:min-h-[84px] lg:text-[37px] lg:leading-[100.1px]"
                             : "min-h-[52px] text-[12px] leading-[1.2] sm:min-h-[60px] sm:text-[18px] lg:min-h-[85px] lg:text-[27.7px] lg:leading-[75.1px]",
                         ].join(" ")}
                       >
