@@ -37,7 +37,7 @@ export const InterviewCTASection = (): JSX.Element => {
             </Button>
           </div>
         </header>
-        <div className="relative z-10 grid flex-1 grid-cols-1 border border-white/20 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="relative z-10 grid flex-1 grid-cols-1 border border-b-0 border-white/20 sm:grid-cols-2 lg:grid-cols-3">
           <Card
             className={`rounded-none border-y-0 border-l-0 border-r border-transparent bg-transparent shadow-none ${sideCards[0].borderClass}`}
           >
