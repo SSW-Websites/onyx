@@ -32,7 +32,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
                 Since 2020, Onyx Homes has helped serious agents grow with real
                 production, real support, and a stronger team behind them.
               </p>
-              <ul className="mt-6 inline-flex flex-col items-stretch gap-4 text-left lg:mt-8 lg:flex lg:gap-6 2xl:gap-7">
+              <ul className="mx-auto mt-6 flex w-fit flex-col gap-4 text-left lg:mx-0 lg:mt-8 lg:w-auto lg:gap-6 2xl:gap-7">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <Check
