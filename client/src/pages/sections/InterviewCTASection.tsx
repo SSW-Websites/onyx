@@ -39,9 +39,9 @@ export const InterviewCTASection = (): JSX.Element => {
         </header>
         <div className="relative z-10 grid flex-1 grid-cols-1 border border-b-0 border-white/20 sm:grid-cols-2 lg:grid-cols-3">
           <Card
-            className={`rounded-none border-y-0 border-l-0 border-r border-transparent bg-transparent shadow-none ${sideCards[0].borderClass}`}
+            className={`flex h-full flex-col rounded-none border-y-0 border-l-0 border-r border-transparent bg-transparent shadow-none ${sideCards[0].borderClass}`}
           >
-            <CardContent className="flex min-h-[320px] items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+            <CardContent className="flex min-h-[320px] flex-1 items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
               <h3
                 className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[0].underline ? "underline" : ""
@@ -85,9 +85,9 @@ export const InterviewCTASection = (): JSX.Element => {
           </Card>
 
           <Card
-            className={`rounded-none border-y-0 border-l border-r-0 border-transparent bg-transparent shadow-none ${sideCards[1].borderClass}`}
+            className={`flex h-full flex-col rounded-none border-y-0 border-l border-r-0 border-transparent bg-transparent shadow-none ${sideCards[1].borderClass}`}
           >
-            <CardContent className="flex min-h-[320px] items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+            <CardContent className="flex min-h-[320px] flex-1 items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
               <h3
                 className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[1].underline ? "underline" : ""
