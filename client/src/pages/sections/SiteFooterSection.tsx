@@ -58,7 +58,7 @@ export const SiteFooterSection = (): JSX.Element => {
             <span className="font-medium tracking-[-0.19px]">
               For full-time real estate agents in
             </span>
-            <span className="[font-family:'SF_Pro-Bold',Helvetica] font-bold tracking-[-0.19px]">
+            <span className="font-extrabold tracking-[-0.19px]">
               {" "}
               OC, South LA, and Riverside
             </span>
