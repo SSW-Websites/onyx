@@ -54,11 +54,11 @@ export const ThankYou = (): JSX.Element => {
         aria-label="Why this conversation matters"
         className="w-full bg-white px-4 py-12 sm:px-6 md:py-16 lg:px-8 lg:py-24"
       >
-        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-8 lg:grid-cols-[minmax(0,520px)_1fr] lg:gap-16">
-          <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1] tracking-[2px] text-black sm:text-[40px] sm:tracking-[3px] lg:text-left lg:text-[52px] lg:leading-[0.95] lg:tracking-[4.5px]">
+        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-8 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 lg:gap-16">
+          <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1] tracking-[2px] text-black sm:text-[40px] sm:tracking-[3px] md:text-left md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:leading-[0.95] lg:tracking-[4.5px]">
             WHY THIS CONVERSATION IS WORTH YOUR TIME
           </h2>
-          <p className="max-w-[640px] text-center [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[18px] lg:mx-0 lg:text-left lg:text-[20px] lg:leading-[1.45]">
+          <p className="max-w-[640px] text-center [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[18px] md:mx-0 md:text-left lg:text-[20px] lg:leading-[1.45]">
             Onyx Homes is built for serious agents who want more than just a
             place to hang their license. This interview is designed to show you
             how the opportunity works and see if there&rsquo;s a fit on both
