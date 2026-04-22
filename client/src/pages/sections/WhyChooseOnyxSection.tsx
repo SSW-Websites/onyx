@@ -88,7 +88,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
                     {index < stats.length - 1 && (
                       <div
                         aria-hidden="true"
-                        className="mt-6 h-px w-full max-w-[815px] bg-white/40 lg:mt-[32px]"
+                        className="mt-6 h-px w-full max-w-[815px] bg-[linear-gradient(90deg,rgba(255,255,255,0.6)_0%,rgba(255,255,255,0.4)_60%,rgba(255,255,255,0)_100%)] lg:mt-[32px]"
                       />
                     )}
                   </div>
