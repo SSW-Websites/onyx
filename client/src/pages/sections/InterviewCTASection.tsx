@@ -52,8 +52,8 @@ export const InterviewCTASection = (): JSX.Element => {
             </CardContent>
           </Card>
 
-          <Card className="rounded-none border-x border-y-0 border-[#ebf3ff] bg-[#172734] shadow-none sm:col-span-2 lg:col-span-1">
-            <CardContent className="relative flex min-h-[320px] overflow-hidden p-0 sm:min-h-[360px] lg:min-h-[491px]">
+          <Card className="flex h-full flex-col rounded-none border-x border-y-0 border-[#ebf3ff] bg-[#172734] shadow-none sm:col-span-2 lg:col-span-1">
+            <CardContent className="relative flex min-h-[320px] flex-1 overflow-hidden p-0 sm:min-h-[360px] lg:min-h-[491px]">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
                 alt="Onyx Homes"
