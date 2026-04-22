@@ -26,7 +26,7 @@ export const FitAssessmentSection = (): JSX.Element => {
                   ABOUT GROWTH
                 </h2>
               </header>
-              <div className="border-l border-black/30 pl-3 sm:pl-4 md:pl-5">
+              <div className="md:border-l md:border-black/30 md:pl-5">
                 <ul className="m-0 list-none p-0">
                   {assessmentItems.map((item, index) => (
                     <li
@@ -35,7 +35,7 @@ export const FitAssessmentSection = (): JSX.Element => {
                     >
                       <div
                         className={[
-                          "flex items-center [font-family:'Montserrat',Helvetica] font-bold text-black tracking-[0]",
+                          "flex items-center justify-center text-center md:justify-start md:text-left [font-family:'Montserrat',Helvetica] font-bold text-black tracking-[0]",
                           index === 2
                             ? "min-h-[62px] text-[18px] leading-[1.15] sm:min-h-[72px] sm:text-[24px] lg:min-h-[84px] lg:text-[37px] lg:leading-[100.1px]"
                             : "min-h-[52px] text-[12px] leading-[1.2] sm:min-h-[60px] sm:text-[18px] lg:min-h-[85px] lg:text-[27.7px] lg:leading-[75.1px]",
