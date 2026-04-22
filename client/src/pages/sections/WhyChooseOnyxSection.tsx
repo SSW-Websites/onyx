@@ -21,7 +21,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
         <div className="flex flex-col items-start justify-start px-6 py-12 sm:px-10 md:px-14 lg:px-8 lg:pt-[56px] xl:pl-10 xl:pt-[72px] 2xl:pl-20 2xl:pt-[85px]">
           <div className="w-full max-w-[820px]">
             <header className="max-w-full">
-              <h2 className="[font-family:'Montserrat',Helvetica] text-[32px] font-bold uppercase leading-[1.05] tracking-[0.08em] text-black sm:text-[40px] lg:text-[22px] lg:leading-[1.1] lg:tracking-[1px] [@media(min-width:1180px)]:text-[28px] [@media(min-width:1180px)]:tracking-[1.5px] xl:text-[34px] xl:tracking-[2px] [@media(min-width:1400px)]:text-[42px] [@media(min-width:1400px)]:tracking-[3px] 2xl:text-[52px] 2xl:tracking-[4px] [@media(min-width:1800px)]:text-[61.73px] [@media(min-width:1800px)]:tracking-[6.79px]">
+              <h2 className="[font-family:'Montserrat',Helvetica] text-[22px] font-bold uppercase leading-[1.05] tracking-[0.06em] text-black sm:text-[40px] sm:tracking-[0.08em] lg:text-[22px] lg:leading-[1.1] lg:tracking-[1px] [@media(min-width:1180px)]:text-[28px] [@media(min-width:1180px)]:tracking-[1.5px] xl:text-[34px] xl:tracking-[2px] [@media(min-width:1400px)]:text-[42px] [@media(min-width:1400px)]:tracking-[3px] 2xl:text-[52px] 2xl:tracking-[4px] [@media(min-width:1800px)]:text-[61.73px] [@media(min-width:1800px)]:tracking-[6.79px]">
                 A TEAM
                 <br />
                 BUILT TO HELP AGENTS GROW

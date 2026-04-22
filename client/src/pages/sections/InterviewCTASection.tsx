@@ -22,7 +22,7 @@ export const InterviewCTASection = (): JSX.Element => {
       <div className="relative mx-auto flex min-h-[917px] w-full max-w-[1920px] flex-col px-6 pb-0 pt-20 sm:px-10 lg:px-14 xl:px-16">
         <div className="pointer-events-none absolute left-1/2 top-[60%] h-[235px] w-[237px] -translate-x-1/2 bg-[#589eff] blur-[237.75px]" />
         <header className="relative z-10 grid grid-cols-1 gap-8 pb-12 lg:grid-cols-[minmax(0,809px)_minmax(320px,485px)] lg:items-start lg:justify-between lg:gap-10 lg:pb-24">
-          <h2 className="max-w-[809px] [font-family:'Montserrat',Helvetica] text-[38px] font-bold leading-[0.92] tracking-[4px] text-white sm:text-[48px] sm:tracking-[5.2px] lg:text-[61.7px] lg:tracking-[6.79px]">
+          <h2 className="max-w-[809px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2.5px] text-white sm:text-[48px] sm:leading-[0.92] sm:tracking-[5.2px] lg:text-[61.7px] lg:tracking-[6.79px]">
             WHY SERIOUS AGENTS CHOOSE ONYX HOMES
           </h2>
           <div className="flex justify-start lg:justify-center">
@@ -43,7 +43,7 @@ export const InterviewCTASection = (): JSX.Element => {
           >
             <CardContent className="flex min-h-[320px] flex-1 items-center p-8 sm:min-h-[360px] lg:min-h-[380px] lg:p-10">
               <h3
-                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
+                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[24px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[0].underline ? "underline" : ""
                 }`}
               >
@@ -67,7 +67,7 @@ export const InterviewCTASection = (): JSX.Element => {
                 className="absolute inset-0 bg-[linear-gradient(47.69deg,rgba(238,247,255,0.92)_36.7%,rgba(238,247,255,0.55)_75%,rgba(24,39,53,0)_100%)]"
               />
               <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
-                <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[30px] font-bold leading-[0.9] tracking-[0] text-[#233240] sm:text-[34px] lg:text-[40px] lg:leading-[36.1px]">
+                <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[22px] font-bold leading-[0.95] tracking-[0] text-[#233240] sm:text-[34px] sm:leading-[0.9] lg:text-[40px] lg:leading-[36.1px]">
                   WHAT WE GIVE YOU INSTEAD
                 </h3>
                 <p className="max-w-[409px] [font-family:'SF_Pro-Bold',Helvetica] text-[18px] font-normal leading-normal tracking-[0] text-[#233240] sm:text-[20px] lg:text-[22px]">
@@ -89,7 +89,7 @@ export const InterviewCTASection = (): JSX.Element => {
           >
             <CardContent className="flex min-h-[320px] flex-1 items-center p-8 sm:min-h-[360px] lg:min-h-[380px] lg:p-10">
               <h3
-                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
+                className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[24px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[1].underline ? "underline" : ""
                 }`}
               >

@@ -16,7 +16,7 @@ export const FitAssessmentSection = (): JSX.Element => {
           <CardContent className="p-0">
             <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-[minmax(180px,443px)_1fr] md:gap-4 lg:gap-6">
               <header className="flex items-center justify-center md:justify-end md:pr-4 lg:pr-5">
-                <h2 className="text-center md:text-right [font-family:'Montserrat',Helvetica] font-bold text-black text-[34px] leading-[0.92] tracking-[3px] sm:text-[44px] sm:tracking-[4.5px] lg:text-[61.7px] lg:tracking-[6.79px]">
+                <h2 className="text-center md:text-right [font-family:'Montserrat',Helvetica] font-bold text-black text-[24px] leading-[0.95] tracking-[2px] sm:text-[44px] sm:leading-[0.92] sm:tracking-[4.5px] lg:text-[61.7px] lg:tracking-[6.79px]">
                   THIS
                   <br />
                   IS FOR AGENTS

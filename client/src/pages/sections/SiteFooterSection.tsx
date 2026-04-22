@@ -67,7 +67,7 @@ export const SiteFooterSection = (): JSX.Element => {
             </span>
           </p>
         </div>
-        <h2 className="max-w-[937px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.92] tracking-[3.2px] text-[#00020f] sm:text-[48px] sm:tracking-[5px] lg:text-[61.7px] lg:tracking-[6.79px]">
+        <h2 className="max-w-[937px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-[#00020f] sm:text-[48px] sm:leading-[0.92] sm:tracking-[5px] lg:text-[61.7px] lg:tracking-[6.79px]">
           BOOK YOUR INTERVIEW WITH ONYX HOMES
         </h2>
         <p className="mt-6 max-w-[863px] [font-family:'SF_Pro-Regular',Helvetica] text-[18px] font-normal leading-normal tracking-[0] text-[#00020f] sm:text-[22px] lg:mt-[28px] lg:text-[26px]">
