@@ -58,7 +58,7 @@ export const ThankYou = (): JSX.Element => {
               WHY THIS CONVERSATION IS WORTH YOUR TIME
             </h2>
           </div>
-          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+          <div className="flex flex-col items-center text-center md:items-end md:text-right">
             <p className="max-w-[640px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[18px] lg:text-[20px] lg:leading-[1.45]">
               Onyx Homes is built for serious agents who want more than just a
               place to hang their license. This interview is designed to show
