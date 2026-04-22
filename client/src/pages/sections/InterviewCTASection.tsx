@@ -41,7 +41,7 @@ export const InterviewCTASection = (): JSX.Element => {
           <Card
             className={`rounded-none border-y-0 border-l-0 border-r border-transparent bg-transparent shadow-none ${sideCards[0].borderClass}`}
           >
-            <CardContent className="flex min-h-[320px] items-end p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+            <CardContent className="flex min-h-[320px] items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
               <h3
                 className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[0].underline ? "underline" : ""
@@ -87,7 +87,7 @@ export const InterviewCTASection = (): JSX.Element => {
           <Card
             className={`rounded-none border-y-0 border-l border-r-0 border-transparent bg-transparent shadow-none ${sideCards[1].borderClass}`}
           >
-            <CardContent className="flex min-h-[320px] items-end p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
+            <CardContent className="flex min-h-[320px] items-center p-8 sm:min-h-[360px] lg:min-h-[491px] lg:p-10">
               <h3
                 className={`max-w-[393px] [font-family:'Montserrat',Helvetica] text-[36px] font-bold leading-[0.95] tracking-[0] text-white sm:text-[42px] lg:text-[50px] ${
                   sideCards[1].underline ? "underline" : ""
