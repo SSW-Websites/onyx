@@ -27,14 +27,14 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
                 BUILT TO HELP AGENTS GROW
               </h2>
             </header>
-            <div className="mt-6 max-w-[715px] [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.4] text-black sm:text-[18px] lg:mt-[36px] lg:text-[20px] lg:leading-[1.3] xl:text-[23px] 2xl:text-[26px] 2xl:leading-[1.25]">
+            <div className="mt-6 w-full max-w-[715px] [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.4] text-black sm:text-[18px] lg:mt-[36px] lg:text-[20px] lg:leading-[1.3] xl:text-[23px] 2xl:text-[26px] 2xl:leading-[1.25]">
               <p>
                 Since 2020, Onyx Homes has helped serious agents grow with real
                 production, real support, and a stronger team behind them.
               </p>
-              <ul className="mt-6 flex flex-col gap-4 text-left lg:mt-8 lg:gap-6 2xl:gap-7">
+              <ul className="mx-auto mt-6 flex w-fit flex-col gap-4 text-left lg:mx-0 lg:mt-8 lg:w-auto lg:gap-6 2xl:gap-7">
                 {highlights.map((item) => (
-                  <li key={item} className="flex items-start justify-center gap-3 lg:justify-start">
+                  <li key={item} className="flex items-start gap-3">
                     <Check
                       aria-hidden="true"
                       strokeWidth={3}
