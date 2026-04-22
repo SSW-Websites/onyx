@@ -52,7 +52,7 @@ export const ThankYou = (): JSX.Element => {
 
       <section
         aria-label="Why this conversation matters"
-        className="w-full bg-white px-4 py-12 sm:px-6 md:py-16 lg:px-8 lg:py-24"
+        className="w-full bg-white px-4 py-12 sm:px-6 md:px-8 md:py-16 lg:py-24"
       >
         <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-8 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 lg:gap-16">
           <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1] tracking-[2px] text-black sm:text-[40px] sm:tracking-[3px] md:text-left md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:leading-[0.95] lg:tracking-[4.5px]">
