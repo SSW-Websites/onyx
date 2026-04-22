@@ -10,7 +10,7 @@ const assessmentItems = [
 
 export const FitAssessmentSection = (): JSX.Element => {
   return (
-    <section className="relative w-full bg-white py-10 md:py-14 lg:py-16">
+    <section className="relative w-full bg-white py-20 md:py-28 lg:py-36">
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-8">
         <Card className="h-auto w-full border-0 bg-transparent shadow-none rounded-none">
           <CardContent className="p-0">
