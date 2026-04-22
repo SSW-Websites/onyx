@@ -19,7 +19,7 @@ const sideCards = [
 export const InterviewCTASection = (): JSX.Element => {
   return (
     <section className="relative w-full overflow-hidden bg-[linear-gradient(179deg,rgba(59,76,91,1)_0%,rgba(32,46,59,1)_100%)]">
-      <div className="relative mx-auto flex min-h-[917px] w-full max-w-[1920px] flex-col px-6 py-20 sm:px-10 lg:px-14 xl:px-16">
+      <div className="relative mx-auto flex min-h-[917px] w-full max-w-[1920px] flex-col px-6 pb-0 pt-20 sm:px-10 lg:px-14 xl:px-16">
         <div className="pointer-events-none absolute left-1/2 top-[60%] h-[235px] w-[237px] -translate-x-1/2 bg-[#589eff] blur-[237.75px]" />
         <header className="relative z-10 grid grid-cols-1 gap-8 pb-12 lg:grid-cols-[minmax(0,809px)_minmax(320px,485px)] lg:items-start lg:justify-between lg:gap-10 lg:pb-24">
           <h2 className="max-w-[809px] [font-family:'Montserrat',Helvetica] text-[38px] font-bold leading-[0.92] tracking-[4px] text-white sm:text-[48px] sm:tracking-[5.2px] lg:text-[61.7px] lg:tracking-[6.79px]">
