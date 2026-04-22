@@ -30,8 +30,8 @@ const agentAvatars = [
 export const SiteFooterSection = (): JSX.Element => {
   return (
     <section className="w-full bg-white px-4 py-10 sm:px-6 sm:py-14 lg:py-[104px]">
-      <div className="mx-auto flex w-full max-w-[937px] flex-col items-center text-center">
-        <div className="mb-5 flex items-center justify-center">
+      <div className="mx-auto flex w-full max-w-[937px] flex-col items-start text-left sm:items-center sm:text-center">
+        <div className="mb-5 flex items-center justify-start sm:justify-center">
           <div className="flex items-center">
             {agentAvatars.map((avatar, index) => (
               <div
