@@ -54,7 +54,7 @@ export const SiteFooterSection = (): JSX.Element => {
               </div>
             ))}
           </div>
-          <p className="ml-2 whitespace-nowrap text-left [font-family:'SF_Pro-Medium',Helvetica] text-[9.5px] font-normal tracking-[-0.2px] text-[#1f3040] sm:ml-[13px] sm:whitespace-normal sm:text-[19.6px] sm:leading-[21.9px] sm:tracking-[-0.98px]">
+          <p className="ml-2 whitespace-nowrap text-left [font-family:'SF_Pro-Medium',Helvetica] text-[8px] font-normal tracking-[-0.15px] text-[#1f3040] sm:ml-[13px] sm:whitespace-normal sm:text-[19.6px] sm:leading-[21.9px] sm:tracking-[-0.98px]">
             <span className="font-medium tracking-[-0.19px]">
               For full-time real estate agents in
             </span>
