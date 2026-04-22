@@ -54,16 +54,20 @@ export const ThankYou = (): JSX.Element => {
         aria-label="Why this conversation matters"
         className="w-full bg-white px-4 py-12 sm:px-6 md:px-8 md:py-16 lg:py-24"
       >
-        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-8 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 lg:gap-16">
-          <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1] tracking-[2px] text-black sm:text-[40px] sm:tracking-[3px] md:text-left md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:leading-[0.95] lg:tracking-[4.5px]">
-            WHY THIS CONVERSATION IS WORTH YOUR TIME
-          </h2>
-          <p className="max-w-[640px] text-center [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[18px] md:mx-0 md:text-left lg:text-[20px] lg:leading-[1.45]">
-            Onyx Homes is built for serious agents who want more than just a
-            place to hang their license. This interview is designed to show you
-            how the opportunity works and see if there&rsquo;s a fit on both
-            sides.
-          </p>
+        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 items-center gap-8 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 lg:gap-16">
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <h2 className="max-w-[520px] [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1] tracking-[2px] text-black sm:text-[40px] sm:tracking-[3px] md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:leading-[0.95] lg:tracking-[4.5px]">
+              WHY THIS CONVERSATION IS WORTH YOUR TIME
+            </h2>
+          </div>
+          <div className="flex flex-col items-center text-center md:items-start md:text-left">
+            <p className="max-w-[640px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[18px] lg:text-[20px] lg:leading-[1.45]">
+              Onyx Homes is built for serious agents who want more than just a
+              place to hang their license. This interview is designed to show
+              you how the opportunity works and see if there&rsquo;s a fit on
+              both sides.
+            </p>
+          </div>
         </div>
       </section>
 
