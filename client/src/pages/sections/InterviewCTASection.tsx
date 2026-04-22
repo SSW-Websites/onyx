@@ -66,11 +66,11 @@ export const InterviewCTASection = (): JSX.Element => {
                 aria-hidden="true"
                 className="absolute inset-0 bg-[linear-gradient(47.69deg,rgba(238,247,255,0.92)_36.7%,rgba(238,247,255,0.55)_75%,rgba(24,39,53,0)_100%)]"
               />
-              <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-6 lg:p-7">
-                <h3 className="mb-3 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.9] tracking-[0] text-[#233240] sm:text-[30px] lg:text-[32px] lg:leading-[30px]">
+              <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
+                <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[30px] font-bold leading-[0.9] tracking-[0] text-[#233240] sm:text-[34px] lg:text-[40px] lg:leading-[36.1px]">
                   WHAT WE GIVE YOU INSTEAD
                 </h3>
-                <p className="max-w-[409px] [font-family:'SF_Pro-Bold',Helvetica] text-[15px] font-normal leading-snug tracking-[0] text-[#233240] sm:text-[16px] lg:text-[17px]">
+                <p className="max-w-[409px] [font-family:'SF_Pro-Bold',Helvetica] text-[18px] font-normal leading-normal tracking-[0] text-[#233240] sm:text-[20px] lg:text-[22px]">
                   <span className="font-bold text-[#233240]">Onyx Homes</span>
                   <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
                     {" "}
