@@ -24,7 +24,7 @@ export const AgentCriteriaSection = (): JSX.Element => {
       <div className="mx-auto max-w-[1400px] px-4 py-3 sm:px-6 lg:px-8">
         <Card className="border-0 bg-transparent shadow-none">
           <CardContent className="p-0">
-            <div className="grid min-h-[90px] grid-cols-3 items-center gap-x-1 sm:min-h-[181px] sm:gap-x-10 lg:gap-x-16">
+            <div className="grid min-h-[90px] grid-cols-3 items-stretch gap-x-1 sm:min-h-[181px] sm:gap-x-10 lg:gap-x-16">
               {stats.map((stat, index) => (
                 <div
                   key={stat.label}
