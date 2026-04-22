@@ -86,10 +86,9 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
                       {stat.value}
                     </div>
                     {index < stats.length - 1 && (
-                      <img
-                        className="mt-6 h-[1.2px] w-full max-w-[815px] lg:mt-[32px]"
-                        alt="Line"
-                        src="/figmaAssets/line-2.svg"
+                      <div
+                        aria-hidden="true"
+                        className="mt-6 h-px w-full max-w-[815px] bg-white/40 lg:mt-[32px]"
                       />
                     )}
                   </div>
