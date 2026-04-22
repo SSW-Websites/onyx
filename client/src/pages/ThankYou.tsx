@@ -33,17 +33,15 @@ export const ThankYou = (): JSX.Element => {
               </li>
             ))}
           </ul>
-          <div className="mt-8 w-full max-w-[975px] aspect-video rounded-none overflow-hidden bg-[#1e1e1e]">
-            <div className="flex h-full w-full items-center justify-center">
-              <svg
-                aria-hidden="true"
-                className="h-16 w-16 text-white/40 sm:h-20 sm:w-20"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-              >
-                <path d="M8 5v14l11-7z" />
-              </svg>
-            </div>
+          <div className="mt-8 w-full max-w-[975px] aspect-video overflow-hidden bg-black">
+            <iframe
+              src="https://fast.wistia.net/embed/iframe/tz3rioagbp?seo=true&videoFoam=true"
+              title="Onyx Homes interview prep"
+              allow="autoplay; fullscreen"
+              allowFullScreen
+              className="h-full w-full border-0"
+              data-testid="iframe-thankyou-video"
+            />
           </div>
         </div>
       </section>
