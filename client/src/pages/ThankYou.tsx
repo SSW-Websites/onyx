@@ -73,9 +73,9 @@ export const ThankYou = (): JSX.Element => {
 
       <section
         aria-label="Join the free community"
-        className="relative w-full bg-[linear-gradient(178deg,rgba(59,76,91,1)_0%,rgba(32,46,59,1)_100%)]"
+        className="relative w-full bg-[linear-gradient(178deg,rgba(59,76,91,1)_0%,rgba(32,46,59,1)_100%)] px-4 py-12 sm:px-6 md:px-8 md:py-16 lg:py-20"
       >
-        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 items-center gap-8 px-4 py-12 sm:px-6 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 md:px-8 md:py-16 lg:gap-16 lg:py-20">
+        <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 items-center gap-8 md:grid-cols-[minmax(0,520px)_1fr] md:gap-10 lg:gap-16">
           <div className="flex flex-col items-center text-center md:items-start md:text-left">
             <h2 className="max-w-[520px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-white sm:text-[40px] sm:tracking-[3px] md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:tracking-[4px]">
               WANT EXTRA VALUE BEFORE THE CALL?
