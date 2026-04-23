@@ -41,7 +41,7 @@ const cards: CardData[] = [
   {
     id: "gain",
     title: "WHAT AGENTS GAIN AT ONYX HOMES",
-    image: "/figmaAssets/image-9.png",
+    image: "/figmaAssets/image-gain.png",
     paragraph: (
       <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
         More time focused on sales, more consistency in their pipeline, more
