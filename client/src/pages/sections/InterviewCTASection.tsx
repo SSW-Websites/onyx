@@ -25,7 +25,7 @@ const cards: CardData[] = [
   {
     id: "instead",
     title: "WHAT WE GIVE YOU INSTEAD",
-    image: "/figmaAssets/image-9.png",
+    image: "/figmaAssets/image-instead.png",
     paragraph: (
       <>
         <span className="font-bold text-[#233240]">Onyx Homes</span>
