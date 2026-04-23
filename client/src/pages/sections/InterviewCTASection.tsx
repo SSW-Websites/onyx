@@ -92,18 +92,12 @@ export const InterviewCTASection = (): JSX.Element => {
               >
                 <CardContent className="relative flex min-h-[180px] flex-1 overflow-hidden p-0 sm:min-h-[360px] lg:min-h-[380px]">
                   {isActive && (
-                    <>
-                      <img
-                        className="absolute inset-0 h-full w-full object-cover"
-                        alt={card.title}
-                        src={card.image}
-                        loading="lazy"
-                      />
-                      <div
-                        aria-hidden="true"
-                        className="absolute inset-0 bg-[linear-gradient(47.69deg,rgba(238,247,255,0.92)_36.7%,rgba(238,247,255,0.55)_75%,rgba(24,39,53,0)_100%)]"
-                      />
-                    </>
+                    <img
+                      className="absolute inset-0 h-full w-full object-cover object-center"
+                      alt={card.title}
+                      src={card.image}
+                      loading="lazy"
+                    />
                   )}
                   {isActive ? (
                     <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
