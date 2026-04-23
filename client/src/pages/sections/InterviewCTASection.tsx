@@ -13,7 +13,7 @@ const cards: CardData[] = [
   {
     id: "stuck",
     title: "WHY DO AGENTS GET STUCK",
-    image: "/figmaAssets/image-9.png",
+    image: "/figmaAssets/image-stuck.png",
     paragraph: (
       <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
         Most agents try to do everything alone, which leads to inconsistent
