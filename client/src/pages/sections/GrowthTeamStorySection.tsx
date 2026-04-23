@@ -28,7 +28,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
             growth, book a time below.
           </p>
         </header>
-        <div className="mt-0 flex w-full justify-center sm:mt-1 lg:mt-2">
+        <div className="-mt-4 flex w-full justify-center sm:-mt-6 lg:-mt-8">
           <div
             className="calendly-inline-widget w-full"
             data-url="https://calendly.com/d/cvs7-hd7-r63/intro-to-onyx-homes-ssw"
