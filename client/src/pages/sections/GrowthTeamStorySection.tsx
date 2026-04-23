@@ -30,7 +30,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
         </header>
         <div className="mt-8 flex w-full justify-center sm:mt-10 lg:mt-[58px]">
           <div
-            className="calendly-inline-widget w-full max-w-[974px]"
+            className="calendly-inline-widget w-full"
             data-url="https://calendly.com/d/cvs7-hd7-r63/intro-to-onyx-homes-ssw"
             style={{ minWidth: 320, height: 700 }}
             data-testid="iframe-calendly"
