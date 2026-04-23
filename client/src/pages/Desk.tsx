@@ -1,10 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { AgentCriteriaSection } from "./sections/AgentCriteriaSection";
+import { CalendlyBookingSection } from "./sections/CalendlyBookingSection";
 import { FitAssessmentSection } from "./sections/FitAssessmentSection";
 import { GrowthMetricsSection } from "./sections/GrowthMetricsSection";
 import { GrowthTeamStorySection } from "./sections/GrowthTeamStorySection";
 import { HeroRecruitmentSection } from "./sections/HeroRecruitmentSection";
-import { InterviewCTASection } from "./sections/InterviewCTASection";
 import { SiteFooterSection } from "./sections/SiteFooterSection";
 import { WhyChooseOnyxSection } from "./sections/WhyChooseOnyxSection";
 
@@ -15,7 +15,7 @@ const sections = [
   { id: "fit-assessment", component: FitAssessmentSection },
   { id: "growth-team-story", component: GrowthTeamStorySection },
   { id: "why-choose-onyx", component: WhyChooseOnyxSection },
-  { id: "interview-cta", component: InterviewCTASection },
+  { id: "interview-cta", component: CalendlyBookingSection },
   { id: "site-footer", component: SiteFooterSection },
 ];
 
