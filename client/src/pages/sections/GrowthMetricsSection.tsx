@@ -98,9 +98,9 @@ export const GrowthMetricsSection = (): JSX.Element => {
         <div className="mt-5 w-full max-w-[975px] aspect-video rounded-none overflow-hidden bg-[#1e1e1e]">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/embed/?rel=0&modestbranding=1"
+            src="https://fast.wistia.net/embed/iframe/whl2a354qh?seo=true&videoFoam=true"
             title="Onyx Homes Agent Recruitment Video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="autoplay; fullscreen"
             allowFullScreen
             loading="lazy"
           />
