@@ -1,17 +1,6 @@
-import { useEffect } from "react";
+import CalendlyEmbed from "@/components/CalendlyEmbed";
 
 export const GrowthTeamStorySection = (): JSX.Element => {
-  useEffect(() => {
-    const existing = document.querySelector<HTMLScriptElement>(
-      'script[src="https://assets.calendly.com/assets/external/widget.js"]',
-    );
-    if (existing) return;
-    const script = document.createElement("script");
-    script.src = "https://assets.calendly.com/assets/external/widget.js";
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <section className="relative w-full overflow-hidden bg-[linear-gradient(179deg,rgba(59,76,91,1)_0%,rgba(32,46,59,1)_100%),linear-gradient(0deg,rgba(59,76,91,1)_0%,rgba(59,76,91,1)_100%)] px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
       <div className="mx-auto flex w-full max-w-[1100px] flex-col items-center">
@@ -29,12 +18,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
           </p>
         </header>
         <div className="-mt-4 flex w-full justify-center sm:-mt-6 lg:-mt-8">
-          <div
-            className="calendly-inline-widget w-full"
-            data-url="https://calendly.com/d/cvs7-hd7-r63/intro-to-onyx-homes-ssw"
-            style={{ minWidth: 320, height: 700 }}
-            data-testid="iframe-calendly"
-          />
+          <CalendlyEmbed />
         </div>
       </div>
     </section>
