@@ -104,7 +104,7 @@ export const ThankYou = (): JSX.Element => {
               className="mt-8 h-auto min-h-0 rounded-none bg-white px-8 py-4 text-black shadow-none transition-colors hover:bg-gray-100 active:bg-gray-200 sm:px-10 sm:py-5"
             >
               <a
-                href="https://www.skool.com/"
+                href="https://www.skool.com/start/about"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="[font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[2px] text-black sm:text-[16px] sm:tracking-[2.5px]"
