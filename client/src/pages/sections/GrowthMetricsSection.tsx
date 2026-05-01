@@ -72,11 +72,7 @@ export const GrowthMetricsSection = (): JSX.Element => {
         </div>
         <header className="flex w-full max-w-[1045px] flex-col items-center text-center">
           <h2 className="[font-family:'Montserrat',Helvetica] text-[32px] font-bold uppercase leading-[0.92] tracking-[2.8px] text-black sm:text-[40px] sm:tracking-[3.8px] md:text-[52px] md:tracking-[5.2px] lg:text-[61.7px] lg:tracking-[6.79px]">Agents Join for the Leads. They Stay for Everything Else. </h2>
-          <p className="mt-5 max-w-[975px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.3] text-black sm:text-[18px] md:mt-7 md:text-[22px] lg:text-[26px]">
-            Onyx Homes helps full-time agents grow with a proven sales process,
-            team-generated opportunities, accountability, and support so they
-            can focus on sales.
-          </p>
+          <p className="mt-5 max-w-[975px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.3] text-black sm:text-[18px] md:mt-7 md:text-[22px] lg:text-[26px]">Sell $10M this year by plugging into a proven system. Sales Process, Leads, Built-in Accountability, and Support.</p>
         </header>
         <div className="mt-8 flex w-full max-w-[606px] items-center justify-center gap-2 md:mt-10">
           <img
