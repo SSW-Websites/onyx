@@ -67,7 +67,7 @@ export const InterviewCTASection = (): JSX.Element => {
               type="button"
               onClick={() =>
                 document
-                  .getElementById("growth-team-story")
+                  .getElementById("calendly-widget")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
               className="h-auto min-h-0 w-full max-w-[485px] rounded-none bg-white px-6 py-7 text-black shadow-[0px_-4px_10px_#010e1940,0px_-12px_18px_#010e1930,0px_-28px_24px_#010e1920] transition-colors hover:bg-gray-50 active:bg-gray-100 sm:min-h-28 sm:py-10 sm:shadow-[0px_-5px_11px_#010e195e,0px_-20px_20px_#010e1952,0px_-44px_27px_#010e1930,0px_-79px_31px_#010e190f,0px_-123px_34px_#010e1903]"

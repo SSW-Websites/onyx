@@ -54,7 +54,10 @@ export const GrowthTeamStorySection = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="flex w-full justify-center lg:-mt-12 lg:justify-end">
+          <div
+            id="calendly-widget"
+            className="flex w-full scroll-mt-24 justify-center lg:-mt-12 lg:justify-end"
+          >
             <CalendlyEmbed />
           </div>
         </div>

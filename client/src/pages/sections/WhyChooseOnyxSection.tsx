@@ -47,7 +47,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
             </div>
             <Button
               type="button"
-              onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
+              onClick={() => document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" })}
               className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[112px] lg:min-h-0 lg:w-[485px] lg:px-0 lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
             >
               BOOK YOUR INTERVIEW

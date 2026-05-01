@@ -99,7 +99,7 @@ export const GrowthMetricsSection = (): JSX.Element => {
         </div>
         <Button
           type="button"
-          onClick={() => document.getElementById("growth-team-story")?.scrollIntoView({ behavior: "smooth" })}
+          onClick={() => document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" })}
           className="mt-8 h-auto min-h-[72px] w-full max-w-[750px] rounded-none bg-black px-6 py-5 [font-family:'Montserrat',Helvetica] text-center text-[20px] font-bold uppercase tracking-[2.2px] text-[#f2f2f2] hover:bg-black/90 active:bg-black/80 transition-colors sm:text-[26px] sm:tracking-[2.8px] md:mt-10 md:min-h-[100px] md:text-[32px] md:tracking-[3.4px] lg:mt-[53px] lg:min-h-[133px] lg:text-[37.6px] lg:tracking-[4.14px] lg:leading-[34.7px]"
         >
           BOOK YOUR INTERVIEW
