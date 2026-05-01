@@ -16,8 +16,6 @@ export const ThankYou = (): JSX.Element => {
     <main className="relative flex w-full flex-col bg-white">
       <HeroRecruitmentSection />
 
-      <OnyxOfferPacketSection />
-
       <section
         aria-label="Thank you confirmation"
         className="w-full bg-[#f2f2f2] px-4 py-10 sm:px-6 md:py-14 lg:px-8 lg:py-20"
@@ -48,6 +46,8 @@ export const ThankYou = (): JSX.Element => {
           </div>
         </div>
       </section>
+
+      <OnyxOfferPacketSection />
 
       <AgentCriteriaSection />
 
