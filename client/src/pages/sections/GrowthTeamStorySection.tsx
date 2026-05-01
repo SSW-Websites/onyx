@@ -23,7 +23,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
               We are not for everyone. We offer a lot from our agents and we
               expect a lot in return.
             </p>
-            <ul className="mt-5 flex flex-col gap-2 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.55] sm:text-[17px] lg:text-[18px]">
+            <ul className="mt-5 flex flex-col gap-2 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
               <li className="flex items-start gap-3">
                 <span
                   aria-hidden="true"
