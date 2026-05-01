@@ -19,7 +19,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
               flip-book below. You can see our compensation model, training
               &amp; even lead sources.
             </p>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.55] sm:text-[17px] lg:text-[18px]">
+            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
               We are not for everyone. We offer a lot from our agents and we
               expect a lot in return.
             </p>
