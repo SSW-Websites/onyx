@@ -9,47 +9,49 @@ export const GrowthTeamStorySection = (): JSX.Element => {
         </h2>
 
         <div className="mt-10 grid grid-cols-1 gap-10 lg:mt-14 lg:grid-cols-2 lg:gap-12 lg:items-start">
-          <div className="flex flex-col text-[#191919]">
-            <h3 className="[font-family:'SF_Pro-Bold',Helvetica] text-[26px] font-bold leading-[1.15] tracking-[0] sm:text-[32px] lg:text-[38px]">
+          <div className="flex flex-col text-black">
+            <h3 className="[font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[1.15] tracking-[0] text-black sm:text-[32px] lg:text-[38px]">
               This is not a recruiting call, this is an interview.
             </h3>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
-              You won&apos;t hear a sales pitch from us. Everything you want to
-              know about our team is in our &lsquo;Level up your Business&rsquo;
-              flip-book below. You can see our compensation model, training
-              &amp; even lead sources.
-            </p>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
-              We are not for everyone. We offer a lot from our agents and we
-              expect a lot in return.
-            </p>
-            <ul className="mt-5 flex flex-col gap-2 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
-              <li className="flex items-start gap-3">
-                <span
-                  aria-hidden="true"
-                  className="mt-[10px] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-[#191919]"
-                />
-                <span>We only hire full-time agents</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span
-                  aria-hidden="true"
-                  className="mt-[10px] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-[#191919]"
-                />
-                <span>Our agents follow our proven process</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span
-                  aria-hidden="true"
-                  className="mt-[10px] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-[#191919]"
-                />
-                <span>All agents are Team Players</span>
-              </li>
-            </ul>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
-              If you feel like you want to take the next step and book your
-              interview, schedule the day and time that works best for you.
-            </p>
+            <div className="mt-6 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.4] text-black sm:text-[18px] lg:text-[20px] lg:leading-[1.3] xl:text-[23px] 2xl:text-[26px] 2xl:leading-[1.25]">
+              <p>
+                You won&apos;t hear a sales pitch from us. Everything you want
+                to know about our team is in our &lsquo;Level up your
+                Business&rsquo; flip-book below. You can see our compensation
+                model, training &amp; even lead sources.
+              </p>
+              <p className="mt-6">
+                We are not for everyone. We offer a lot from our agents and we
+                expect a lot in return.
+              </p>
+              <ul className="mt-6 flex flex-col gap-3">
+                <li className="flex items-start gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="mt-[0.6em] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-black"
+                  />
+                  <span>We only hire full-time agents</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="mt-[0.6em] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-black"
+                  />
+                  <span>Our agents follow our proven process</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="mt-[0.6em] inline-block h-[6px] w-[6px] shrink-0 rounded-full bg-black"
+                  />
+                  <span>All agents are Team Players</span>
+                </li>
+              </ul>
+              <p className="mt-6">
+                If you feel like you want to take the next step and book your
+                interview, schedule the day and time that works best for you.
+              </p>
+            </div>
           </div>
 
           <div className="flex w-full justify-center lg:justify-end">
