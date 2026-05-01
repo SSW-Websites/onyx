@@ -76,8 +76,8 @@ export default function CalendlyEmbed() {
   return (
     <div
       ref={containerRef}
-      className="w-full"
-      style={{ minWidth: 320, height: 700 }}
+      className="h-[1100px] w-full sm:h-[1050px] lg:h-[1000px]"
+      style={{ minWidth: 320 }}
       data-testid="iframe-calendly"
     />
   );
