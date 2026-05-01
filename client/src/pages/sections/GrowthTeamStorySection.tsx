@@ -13,7 +13,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
             <h3 className="[font-family:'SF_Pro-Bold',Helvetica] text-[26px] font-bold leading-[1.15] tracking-[0] sm:text-[32px] lg:text-[38px]">
               This is not a recruiting call, this is an interview.
             </h3>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.55] sm:text-[17px] lg:text-[18px]">
+            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
               You won&apos;t hear a sales pitch from us. Everything you want to
               know about our team is in our &lsquo;Level up your Business&rsquo;
               flip-book below. You can see our compensation model, training
