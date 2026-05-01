@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 type CardData = {
   id: string;
   title: string;
-  paragraph: string;
+  paragraph: JSX.Element;
   image: string;
 };
 
@@ -12,29 +12,45 @@ const cards: CardData[] = [
   {
     id: "process",
     title: "Proven Sales Process",
-    paragraph:
-      "Turn more leads into clients with a clear path filled with opportunities and support.",
+    paragraph: (
+      <>
+        Turn more leads into clients with a clear path filled with opportunities
+        and support.
+      </>
+    ),
     image: "/figmaAssets/image-stuck.png",
   },
   {
     id: "leads",
     title: "Lead Opportunities",
-    paragraph:
-      "Get busy, fast. Leverage our marketing efforts and partnerships to grow.",
+    paragraph: (
+      <>
+        Get busy, fast. Leverage our marketing efforts and partnerships to grow.
+      </>
+    ),
     image: "/figmaAssets/image-instead.png",
   },
   {
     id: "accountability",
     title: "Built-in Accountability",
-    paragraph:
-      "To keep you on the right track. Our benchmarks and standards keep you on a path to success.",
+    paragraph: (
+      <>
+        To keep you on the right track. Our benchmarks and standards keep you on
+        a path to success.
+      </>
+    ),
     image: "/figmaAssets/image-gain.png",
   },
   {
     id: "support",
     title: "Support",
-    paragraph:
-      "Leadership and mentorship so you stay focused on selling. We've got your back every step of the way.",
+    paragraph: (
+      <>
+        Leadership and mentorship so you stay focused on selling.
+        <br />
+        &nbsp;
+      </>
+    ),
     image: "/figmaAssets/image-9.png",
   },
 ];
