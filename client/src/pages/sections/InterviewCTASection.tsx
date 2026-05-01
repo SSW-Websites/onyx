@@ -1,62 +1,44 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 
 type CardData = {
   id: string;
   title: string;
-  paragraph: JSX.Element;
+  paragraph: string;
   image: string;
 };
 
 const cards: CardData[] = [
   {
-    id: "stuck",
-    title: "WHY DO AGENTS GET STUCK",
+    id: "process",
+    title: "Proven Sales Process",
+    paragraph: "to turn more leads into clients",
     image: "/figmaAssets/image-stuck.png",
-    paragraph: (
-      <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
-        Most agents try to do everything alone, which leads to inconsistent
-        lead flow, no real system to follow, and too much time spent outside of
-        sales.
-      </span>
-    ),
   },
   {
-    id: "instead",
-    title: "WHAT WE GIVE YOU INSTEAD",
+    id: "leads",
+    title: "Lead Opportunities",
+    paragraph: "to get really busy, fast",
     image: "/figmaAssets/image-instead.png",
-    paragraph: (
-      <>
-        <span className="font-bold text-[#233240]">Onyx Homes</span>
-        <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
-          {" "}
-          gives you a proven sales process, team-generated opportunities, and
-          accountability that keeps you moving, plus the support you need to
-          focus on what you do best: selling.
-        </span>
-      </>
-    ),
   },
   {
-    id: "gain",
-    title: "WHAT AGENTS GAIN AT ONYX HOMES",
+    id: "accountability",
+    title: "Built-in Accountability",
+    paragraph: "to keep you on track",
     image: "/figmaAssets/image-gain.png",
-    paragraph: (
-      <span className="[font-family:'SF_Pro-Light',Helvetica] font-light text-[#233240]">
-        More time focused on sales, more consistency in their pipeline, more
-        confidence in how they grow, and more momentum in their business.
-      </span>
-    ),
+  },
+  {
+    id: "support",
+    title: "Support",
+    paragraph: "so you can focus on selling",
+    image: "/figmaAssets/image-9.png",
   },
 ];
 
 export const InterviewCTASection = (): JSX.Element => {
-  const [activeId, setActiveId] = useState<string | null>(null);
-
   return (
     <section className="relative w-full overflow-hidden bg-[linear-gradient(179deg,rgba(59,76,91,1)_0%,rgba(32,46,59,1)_100%)]">
-      <div className="relative mx-auto flex min-h-[400px] w-full max-w-[1920px] flex-col px-6 pb-12 pt-12 sm:min-h-[917px] sm:px-10 sm:pb-0 sm:pt-20 lg:px-14 xl:px-16">
+      <div className="relative mx-auto flex w-full max-w-[1920px] flex-col px-6 pb-12 pt-12 sm:px-10 sm:pb-16 sm:pt-20 lg:px-14 lg:pb-20 xl:px-16">
         <div className="pointer-events-none absolute left-1/2 top-[60%] h-[235px] w-[237px] -translate-x-1/2 bg-[#589eff] blur-[237.75px]" />
         <header className="relative z-10 grid grid-cols-1 gap-6 pb-8 text-center sm:gap-8 sm:pb-12 sm:text-left lg:grid-cols-[minmax(0,809px)_minmax(320px,485px)] lg:items-start lg:justify-between lg:gap-10 lg:pb-24">
           <h2 className="mx-auto max-w-[809px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2.5px] text-white sm:mx-0 sm:text-[48px] sm:leading-[0.92] sm:tracking-[5.2px] lg:text-[61.7px] lg:tracking-[6.79px]">
@@ -78,47 +60,31 @@ export const InterviewCTASection = (): JSX.Element => {
             </Button>
           </div>
         </header>
-        <div className="relative z-10 grid flex-1 grid-cols-1 gap-4 sm:gap-0 sm:border sm:border-b-0 sm:border-white/20 sm:grid-cols-3">
-          {cards.map((card) => {
-            const isActive = activeId === card.id;
-            return (
-              <Card
-                key={card.id}
-                onClick={() => setActiveId(isActive ? null : card.id)}
-                data-testid={`card-${card.id}`}
-                className={`group flex h-full cursor-pointer flex-col rounded-none border border-white/20 shadow-none sm:border-y-0 sm:border-l-0 sm:border-r sm:border-white/20 sm:last:border-r-0 ${
-                  isActive ? "bg-[#172734]" : "bg-transparent"
-                }`}
-              >
-                <CardContent className="relative flex min-h-[180px] flex-1 overflow-hidden p-0 sm:min-h-[360px] lg:min-h-[380px]">
-                  {isActive && (
-                    <img
-                      className="absolute inset-0 h-full w-full object-cover object-center"
-                      alt={card.title}
-                      src={card.image}
-                      loading="lazy"
-                    />
-                  )}
-                  {isActive ? (
-                    <div className="relative z-10 mt-auto flex w-full flex-col justify-end p-8 lg:p-[41px]">
-                      <h3 className="mb-6 max-w-[351px] [font-family:'Montserrat',Helvetica] text-[22px] font-bold leading-[0.95] tracking-[0] text-[#233240] sm:text-[34px] sm:leading-[0.9] lg:text-[40px] lg:leading-[36.1px]">
-                        {card.title}
-                      </h3>
-                      <p className="max-w-[409px] [font-family:'SF_Pro-Bold',Helvetica] text-[18px] font-normal leading-normal tracking-[0] text-[#233240] sm:text-[20px] lg:text-[22px]">
-                        {card.paragraph}
-                      </p>
-                    </div>
-                  ) : (
-                    <div className="flex w-full flex-1 items-center justify-center p-6 sm:items-center sm:justify-start sm:p-8 lg:p-10">
-                      <h3 className="max-w-[393px] text-center [font-family:'Montserrat',Helvetica] text-[20px] font-bold leading-[1.05] tracking-[0] text-white decoration-2 underline-offset-4 group-hover:underline sm:text-left sm:text-[42px] sm:leading-[0.95] lg:text-[50px]">
-                        {card.title}
-                      </h3>
-                    </div>
-                  )}
-                </CardContent>
-              </Card>
-            );
-          })}
+        <div className="relative z-10 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4 lg:gap-6">
+          {cards.map((card) => (
+            <Card
+              key={card.id}
+              data-testid={`card-${card.id}`}
+              className="flex h-full flex-col rounded-none border border-white/20 bg-[#172734] shadow-none"
+            >
+              <CardContent className="relative flex min-h-[260px] flex-1 items-center justify-center overflow-hidden p-0 sm:min-h-[320px] lg:min-h-[360px]">
+                <img
+                  className="absolute inset-0 h-full w-full object-cover object-center"
+                  alt={card.title}
+                  src={card.image}
+                  loading="lazy"
+                />
+                <div className="relative z-10 flex w-full flex-col items-center justify-center p-6 text-center sm:p-8 lg:p-7">
+                  <h3 className="[font-family:'Montserrat',Helvetica] text-[22px] font-bold leading-[1.05] tracking-[0] text-[#233240] sm:text-[26px] lg:text-[28px]">
+                    {card.title}
+                  </h3>
+                  <p className="mt-3 max-w-[280px] [font-family:'SF_Pro-Light',Helvetica] text-[15px] font-light leading-[1.35] tracking-[0] text-[#233240] sm:text-[16px] lg:text-[17px]">
+                    {card.paragraph}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     </section>
