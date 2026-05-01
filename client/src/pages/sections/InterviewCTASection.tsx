@@ -34,7 +34,7 @@ const cards: CardData[] = [
     id: "support",
     title: "Support",
     paragraph:
-      "Leadership and mentorship so you stay focused on selling.",
+      "Leadership and mentorship so you stay focused on selling. We've got your back every step of the way.",
     image: "/figmaAssets/image-9.png",
   },
 ];
