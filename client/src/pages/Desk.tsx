@@ -5,6 +5,7 @@ import { GrowthMetricsSection } from "./sections/GrowthMetricsSection";
 import { GrowthTeamStorySection } from "./sections/GrowthTeamStorySection";
 import { HeroRecruitmentSection } from "./sections/HeroRecruitmentSection";
 import { InterviewCTASection } from "./sections/InterviewCTASection";
+import { OnyxOfferPacketSection } from "./sections/OnyxOfferPacketSection";
 import { SiteFooterSection } from "./sections/SiteFooterSection";
 import { WhyChooseOnyxSection } from "./sections/WhyChooseOnyxSection";
 
@@ -14,6 +15,7 @@ const sections = [
   { id: "agent-criteria", component: AgentCriteriaSection },
   { id: "fit-assessment", component: FitAssessmentSection },
   { id: "growth-team-story", component: GrowthTeamStorySection },
+  { id: "onyx-offer-packet", component: OnyxOfferPacketSection },
   { id: "why-choose-onyx", component: WhyChooseOnyxSection },
   { id: "interview-cta", component: InterviewCTASection },
   { id: "site-footer", component: SiteFooterSection },
