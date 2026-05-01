@@ -10,7 +10,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
             <br />
             IS THE RIGHT FIT
           </h2>
-          <p className="mt-5 max-w-[953px] [font-family:'SF_Pro-Regular',Helvetica] text-[14px] font-normal leading-[1.35] tracking-[0] text-white sm:text-[18px] lg:mt-8 lg:text-[26px] lg:leading-normal">
+          <p className="mt-5 max-w-[953px] [font-family:'SF_Pro-Regular',Helvetica] text-[14px] font-normal leading-[1.35] tracking-[0] text-white sm:text-[18px] lg:mt-8 lg:text-[26px] lg:leading-normal mb-[30px]">
             This is not a generic recruiting call. It&apos;s an interview to see
             if there&apos;s a fit on both sides. If you&apos;re looking for more
             structure, more opportunity, and a team that actually supports your
