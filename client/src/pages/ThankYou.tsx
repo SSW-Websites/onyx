@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AgentCriteriaSection } from "./sections/AgentCriteriaSection";
 import { HeroRecruitmentSection } from "./sections/HeroRecruitmentSection";
+import { OnyxOfferPacketSection } from "./sections/OnyxOfferPacketSection";
 
 const checklist = [
   "Confirm the calendar invite in your inbox",
@@ -14,6 +15,8 @@ export const ThankYou = (): JSX.Element => {
   return (
     <main className="relative flex w-full flex-col bg-white">
       <HeroRecruitmentSection />
+
+      <OnyxOfferPacketSection />
 
       <section
         aria-label="Thank you confirmation"
