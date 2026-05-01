@@ -3,7 +3,7 @@ import CalendlyEmbed from "@/components/CalendlyEmbed";
 export const GrowthTeamStorySection = (): JSX.Element => {
   return (
     <section className="relative w-full bg-[#f2f2f2] px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
-      <div className="mx-auto flex w-full max-w-[1200px] flex-col">
+      <div className="mx-auto flex w-full max-w-[1400px] flex-col">
         <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1.05] tracking-[3px] text-[#191919] sm:text-[40px] sm:tracking-[4.5px] lg:text-[56px] lg:tracking-[5px]">
           SCHEDULE YOUR INTERVIEW
         </h2>
