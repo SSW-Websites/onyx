@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { AgentCriteriaSection } from "./sections/AgentCriteriaSection";
+import { CoreValuesSection } from "./sections/CoreValuesSection";
 import { HeroRecruitmentSection } from "./sections/HeroRecruitmentSection";
 import { OnyxOfferPacketSection } from "./sections/OnyxOfferPacketSection";
 
@@ -46,6 +47,8 @@ export const ThankYou = (): JSX.Element => {
           </div>
         </div>
       </section>
+
+      <CoreValuesSection />
 
       <OnyxOfferPacketSection />
 
