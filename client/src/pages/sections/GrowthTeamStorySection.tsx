@@ -46,7 +46,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
                 <span>All agents are Team Players</span>
               </li>
             </ul>
-            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.55] sm:text-[17px] lg:text-[18px]">
+            <p className="mt-5 [font-family:'SF_Pro-Regular',Helvetica] font-normal sm:text-[17px] lg:text-[18px] text-[26px]">
               If you feel like you want to take the next step and book your
               interview, schedule the day and time that works best for you.
             </p>
