@@ -12,25 +12,29 @@ const cards: CardData[] = [
   {
     id: "process",
     title: "Proven Sales Process",
-    paragraph: "to turn more leads into clients",
+    paragraph:
+      "Turn more leads into clients with a clear path filled with opportunities and support.",
     image: "/figmaAssets/image-stuck.png",
   },
   {
     id: "leads",
     title: "Lead Opportunities",
-    paragraph: "to get really busy, fast",
+    paragraph:
+      "Get busy, fast. Leverage our marketing efforts and partnerships to grow.",
     image: "/figmaAssets/image-instead.png",
   },
   {
     id: "accountability",
     title: "Built-in Accountability",
-    paragraph: "to keep you on track",
+    paragraph:
+      "To keep you on the right track. Our benchmarks and standards keep you on a path to success.",
     image: "/figmaAssets/image-gain.png",
   },
   {
     id: "support",
     title: "Support",
-    paragraph: "so you can focus on selling",
+    paragraph:
+      "Leadership and mentorship so you stay focused on selling.",
     image: "/figmaAssets/image-9.png",
   },
 ];
