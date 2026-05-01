@@ -64,9 +64,7 @@ export const GrowthMetricsSection = (): JSX.Element => {
                 style={{ fontWeight: 800 }}
                 className="tracking-[-0.19px]"
               >
-                {" "}
-                OC, South LA, and Riverside
-              </span>
+                {" "} OC, South LA, and Inland Empire</span>
             </p>
           </div>
         </div>
