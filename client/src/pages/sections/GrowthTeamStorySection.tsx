@@ -54,7 +54,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
             </div>
           </div>
 
-          <div className="flex w-full justify-center lg:justify-end">
+          <div className="flex w-full justify-center lg:-mt-12 lg:justify-end">
             <CalendlyEmbed />
           </div>
         </div>
