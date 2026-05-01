@@ -71,14 +71,14 @@ export const InterviewCTASection = (): JSX.Element => {
               data-testid={`card-${card.id}`}
               className="flex h-full flex-col rounded-none border border-white/20 bg-[#172734] shadow-none"
             >
-              <CardContent className="relative flex min-h-[260px] flex-1 items-start justify-center overflow-hidden p-0 sm:min-h-[320px] lg:min-h-[360px]">
+              <CardContent className="relative flex min-h-[260px] flex-1 items-center justify-center overflow-hidden p-0 sm:min-h-[320px] lg:min-h-[360px]">
                 <img
                   className="absolute inset-0 h-full w-full object-cover object-center"
                   alt={card.title}
                   src={card.image}
                   loading="lazy"
                 />
-                <div className="relative z-10 flex w-full flex-col items-center p-6 pt-10 text-center sm:p-8 sm:pt-12 lg:p-7 lg:pt-14">
+                <div className="relative z-10 flex w-full flex-col items-center justify-center p-6 text-center sm:p-8 lg:p-7">
                   <h3 className="[font-family:'Montserrat',Helvetica] text-[22px] font-bold leading-[1.05] tracking-[0] text-[#233240] sm:text-[26px] lg:text-[28px]">
                     {card.title}
                   </h3>
