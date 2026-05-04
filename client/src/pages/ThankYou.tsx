@@ -22,30 +22,20 @@ export const ThankYou = (): JSX.Element => {
         className="w-full bg-[#f2f2f2] px-4 py-10 sm:px-6 md:py-14 lg:px-8 lg:py-20"
       >
         <div className="mx-auto flex w-full max-w-[1085px] flex-col items-center text-center">
-          <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-[#233240] sm:h-16 sm:w-16 md:mb-8">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7 text-white sm:h-8 sm:w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-            </svg>
-          </div>
           <h1 className="max-w-[920px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-black sm:text-[44px] sm:leading-[0.92] sm:tracking-[4.5px] lg:text-[58px] lg:tracking-[5.5px]">
             THANKS, YOUR INTERVIEW WITH ONYX HOMES IS SCHEDULED.
           </h1>
-          <div className="mx-auto mt-8 w-full max-w-[620px] border border-black/10 bg-white px-6 py-6 sm:mt-10 sm:px-10 sm:py-8 md:px-12 md:py-10">
-            <p className="[font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[1.5px] text-[#233240] sm:text-[16px] sm:tracking-[2px]">
-              Before your interview:
-            </p>
-            <ul className="mt-5 flex flex-col gap-3 text-left [font-family:'SF_Pro-Regular',Helvetica] text-[14px] font-normal leading-[1.5] text-black sm:mt-6 sm:gap-4 sm:text-[16px] md:text-[18px]">
-              {checklist.map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="mt-0.5 h-5 w-5 shrink-0 text-[#233240]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                  </svg>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="mt-8 w-full max-w-[975px] aspect-video overflow-hidden bg-black sm:mt-10">
+          <p className="mt-5 max-w-[820px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.4] text-black sm:text-[18px] md:mt-6 md:text-[20px] lg:text-[22px]">
+            You&rsquo;re booked. Here&rsquo;s what to do before your interview:
+          </p>
+          <ul className="mx-auto mt-4 flex w-fit flex-col gap-1 text-center [font-family:'SF_Pro-Regular',Helvetica] text-[14px] font-normal leading-[1.5] text-black sm:text-[16px] md:mt-6 md:text-[18px] lg:text-[20px]">
+            {checklist.map((item) => (
+              <li key={item} className="list-none">
+                <span aria-hidden="true">&bull;</span> {item}
+              </li>
+            ))}
+          </ul>
+          <div className="mt-8 w-full max-w-[975px] aspect-video overflow-hidden bg-black">
             <iframe
               src="https://fast.wistia.net/embed/iframe/tz3rioagbp?seo=true&videoFoam=true"
               title="Onyx Homes interview prep"
