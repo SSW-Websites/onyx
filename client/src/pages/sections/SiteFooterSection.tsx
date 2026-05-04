@@ -62,9 +62,7 @@ export const SiteFooterSection = (): JSX.Element => {
               style={{ fontWeight: 800 }}
               className="tracking-[-0.19px]"
             >
-              {" "}
-              OC, South LA, and Riverside
-            </span>
+              {" "} OC, South LA, and Inland Empire</span>
           </p>
         </div>
         <h2 className="max-w-[937px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-[#00020f] sm:text-[48px] sm:leading-[0.92] sm:tracking-[5px] lg:text-[61.7px] lg:tracking-[6.79px]">
