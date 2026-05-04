@@ -77,9 +77,9 @@ export const SiteFooterSection = (): JSX.Element => {
         <Button
           type="button"
           onClick={() => document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" })}
-          className="mt-8 h-auto min-h-[48px] w-full max-w-[750px] rounded-none bg-black px-6 py-4 hover:bg-black/90 active:bg-black/80 transition-colors sm:min-h-[56px] sm:px-10 sm:py-5 lg:mt-[41px] lg:min-h-[72px]"
+          className="mt-8 h-auto rounded-none bg-black px-10 py-4 hover:bg-black/90 active:bg-black/80 transition-colors sm:px-14 sm:py-5 lg:mt-[41px] lg:px-16 lg:py-6"
         >
-          <span className="[font-family:'Montserrat',Helvetica] text-[16px] font-bold leading-[1] tracking-[2px] text-[#f2f2f2] sm:text-[20px] sm:tracking-[2.2px] lg:text-[24px] lg:leading-[1] lg:tracking-[2.6px]">
+          <span className="[font-family:'Montserrat',Helvetica] text-[14px] font-bold leading-[1] tracking-[2px] text-[#f2f2f2] sm:text-[16px] sm:tracking-[2.2px] lg:text-[20px] lg:leading-[1] lg:tracking-[2.4px]">
             BOOK YOUR INTERVIEW
           </span>
         </Button>
