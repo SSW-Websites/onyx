@@ -42,7 +42,7 @@ export default function CalendlyEmbed() {
       }
 
       Calendly.initInlineWidget({
-        url: "https://calendly.com/d/cvs7-hd7-r63/intro-to-onyx-homes-ssw",
+        url: "https://calendly.com/d/cvs7-hd7-r63/intro-to-onyx-homes-ssw?hide_event_type_details=1",
         parentElement: containerRef.current,
         utm: buildUtmParams(),
       });
