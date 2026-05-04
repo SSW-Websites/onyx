@@ -72,9 +72,9 @@ export const InterviewCTASection = (): JSX.Element => {
                   .getElementById("calendly-widget")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
-              className="h-auto min-h-0 w-full max-w-[485px] rounded-none bg-white px-6 py-4 text-black shadow-[0px_2px_6px_#010e1920,0px_4px_12px_#010e1915] transition-colors hover:bg-gray-50 active:bg-gray-100 sm:py-5 sm:shadow-[0px_3px_8px_#010e1925,0px_6px_16px_#010e1918]"
+              className="h-auto rounded-none bg-white px-10 py-4 text-black shadow-[0px_2px_6px_#010e1920,0px_4px_12px_#010e1915] transition-colors hover:bg-gray-50 active:bg-gray-100 sm:px-14 sm:py-5 sm:shadow-[0px_3px_8px_#010e1925,0px_6px_16px_#010e1918] lg:px-16 lg:py-6"
             >
-              <span className="w-full [font-family:'Montserrat',Helvetica] text-center text-[16px] font-bold leading-[1.2] tracking-[2px] text-black sm:text-[18px] lg:text-[20px] lg:tracking-[2.2px]">
+              <span className="[font-family:'Montserrat',Helvetica] text-center text-[14px] font-bold leading-[1] tracking-[2px] text-black sm:text-[16px] sm:tracking-[2.2px] lg:text-[20px] lg:tracking-[2.4px]">
                 BOOK YOUR INTERVIEW
               </span>
             </Button>
