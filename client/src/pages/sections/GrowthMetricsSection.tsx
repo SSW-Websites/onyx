@@ -100,7 +100,7 @@ export const GrowthMetricsSection = (): JSX.Element => {
         <Button
           type="button"
           onClick={() => document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" })}
-          className="mt-8 h-auto min-h-[72px] w-full max-w-[750px] rounded-none bg-black px-6 py-5 [font-family:'Montserrat',Helvetica] text-center text-[20px] font-bold uppercase tracking-[2.2px] text-[#f2f2f2] hover:bg-black/90 active:bg-black/80 transition-colors sm:text-[26px] sm:tracking-[2.8px] md:mt-10 md:min-h-[100px] md:text-[32px] md:tracking-[3.4px] lg:mt-[53px] lg:min-h-[133px] lg:text-[37.6px] lg:tracking-[4.14px] lg:leading-[34.7px]"
+          className="mt-8 h-auto min-h-[48px] w-full max-w-[750px] rounded-none bg-black px-6 py-4 [font-family:'Montserrat',Helvetica] text-center text-[16px] font-bold uppercase tracking-[2px] text-[#f2f2f2] hover:bg-black/90 active:bg-black/80 transition-colors sm:text-[20px] sm:tracking-[2.2px] sm:py-5 md:mt-10 md:min-h-[56px] lg:mt-[53px] lg:min-h-[72px] lg:text-[24px] lg:tracking-[2.6px] lg:leading-[1]"
         >
           BOOK YOUR INTERVIEW
         </Button>

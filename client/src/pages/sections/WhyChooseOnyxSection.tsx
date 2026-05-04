@@ -48,7 +48,7 @@ export const WhyChooseOnyxSection = (): JSX.Element => {
             <Button
               type="button"
               onClick={() => document.getElementById("calendly-widget")?.scrollIntoView({ behavior: "smooth" })}
-              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[112px] lg:min-h-0 lg:w-[485px] lg:px-0 lg:text-[24.3px] lg:leading-[22.4px] lg:tracking-[2.67px]"
+              className="mt-8 h-auto min-h-11 rounded-none bg-black px-8 py-4 [font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[0.11em] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-10 lg:mt-10 lg:h-[72px] lg:min-h-0 lg:w-[485px] lg:px-0 lg:text-[20px] lg:leading-[1] lg:tracking-[2.2px]"
             >
               BOOK YOUR INTERVIEW
             </Button>
