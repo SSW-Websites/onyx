@@ -25,16 +25,21 @@ export const ThankYou = (): JSX.Element => {
           <h1 className="max-w-[920px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-black sm:text-[44px] sm:leading-[0.92] sm:tracking-[4.5px] lg:text-[58px] lg:tracking-[5.5px]">
             THANKS, YOUR INTERVIEW WITH ONYX HOMES IS SCHEDULED.
           </h1>
-          <p className="mt-5 max-w-[820px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.4] text-black sm:text-[18px] md:mt-6 md:text-[20px] lg:text-[22px]">
+          <p className="mt-5 max-w-[820px] [font-family:'SF_Pro-Regular',Helvetica] text-[17px] font-normal leading-[1.4] text-black/70 sm:text-[20px] md:mt-6 md:text-[22px] lg:text-[24px]">
             You&rsquo;re booked. Here&rsquo;s what to do before your interview:
           </p>
-          <ul className="mx-auto mt-4 flex w-fit flex-col gap-1 text-center [font-family:'SF_Pro-Regular',Helvetica] text-[14px] font-normal leading-[1.5] text-black sm:text-[16px] md:mt-6 md:text-[18px] lg:text-[20px]">
-            {checklist.map((item) => (
-              <li key={item} className="list-none">
-                <span aria-hidden="true">&bull;</span> {item}
-              </li>
+          <div className="mx-auto mt-6 flex w-fit flex-col gap-3 text-left md:mt-8 md:gap-4">
+            {checklist.map((item, index) => (
+              <div key={item} className="flex items-start gap-3 sm:gap-4">
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black [font-family:'Montserrat',Helvetica] text-[13px] font-bold text-white sm:h-8 sm:w-8 sm:text-[14px]">
+                  {index + 1}
+                </span>
+                <span className="pt-[2px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-black sm:text-[17px] md:text-[19px] lg:text-[21px]">
+                  {item}
+                </span>
+              </div>
             ))}
-          </ul>
+          </div>
           <div className="mt-8 w-full max-w-[975px] aspect-video overflow-hidden bg-black">
             <iframe
               src="https://fast.wistia.net/embed/iframe/tz3rioagbp?seo=true&videoFoam=true"
