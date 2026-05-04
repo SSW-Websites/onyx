@@ -30,7 +30,7 @@ export const ThankYou = (): JSX.Element => {
           <p className="mt-5 max-w-[820px] [font-family:'SF_Pro-Regular',Helvetica] text-[17px] font-normal leading-[1.4] text-black/70 sm:text-[20px] md:mt-6 md:text-[22px] lg:text-[24px]">
             You&rsquo;re booked. Here&rsquo;s what to do before your interview:
           </p>
-          <div className="mx-auto mt-6 flex w-fit flex-col items-start gap-3 md:mt-8 md:gap-4">
+          <div className="mt-6 flex w-full flex-col items-center gap-3 md:mt-8 md:gap-4">
             {checklist.map((item, index) => (
               <div key={item} className="flex items-center gap-3 sm:gap-4">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-black [font-family:'Montserrat',Helvetica] text-[13px] font-bold text-white sm:h-8 sm:w-8 sm:text-[14px]">
