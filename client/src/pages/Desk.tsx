@@ -12,8 +12,8 @@ import { WhyChooseOnyxSection } from "./sections/WhyChooseOnyxSection";
 const sections = [
   { id: "hero-recruitment", component: HeroRecruitmentSection },
   { id: "growth-metrics", component: GrowthMetricsSection },
-  { id: "onyx-offer-packet", component: OnyxOfferPacketSection },
   { id: "agent-criteria", component: AgentCriteriaSection },
+  { id: "onyx-offer-packet", component: OnyxOfferPacketSection },
   { id: "fit-assessment", component: FitAssessmentSection },
   { id: "growth-team-story", component: GrowthTeamStorySection },
   { id: "why-choose-onyx", component: WhyChooseOnyxSection },
