@@ -51,7 +51,7 @@ const cards: CardData[] = [
         &nbsp;
       </>
     ),
-    image: "/figmaAssets/image-9.png",
+    image: "/figmaAssets/image-support.png",
   },
 ];
 
