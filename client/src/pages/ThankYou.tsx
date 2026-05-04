@@ -81,7 +81,7 @@ export const ThankYou = (): JSX.Element => {
       >
         <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-6 [grid-template-areas:'title''image''content'] md:items-center md:gap-10 md:[grid-template-areas:'title_image''content_image'] md:grid-cols-[minmax(0,520px)_1fr] lg:gap-x-16">
           <h2 className="max-w-[520px] [grid-area:title] text-center [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-white sm:text-[40px] sm:tracking-[3px] md:text-left md:text-[36px] md:tracking-[3px] lg:text-[52px] lg:tracking-[4px]">
-            WANT EXTRA VALUE BEFORE THE CALL?
+            THE VISION FOR ONYX HOMES
           </h2>
           <Card className="[grid-area:image] overflow-hidden rounded-none border-0 bg-transparent shadow-none">
             <CardContent className="relative aspect-[4/3] w-full p-0 lg:aspect-[5/4]">
@@ -95,29 +95,14 @@ export const ThankYou = (): JSX.Element => {
           </Card>
           <div className="flex flex-col items-center text-center [grid-area:content] md:items-start md:text-left">
             <p className="max-w-[520px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-white sm:text-[17px] lg:text-[18px]">
-              Join Christian Stubbs&rsquo; free Skool Community, Start to Finish
-              in Real Estate, for practical training on sales, marketing, and
-              leadership.
+              We believe the &lsquo;traditional brokerage&rsquo; model is broken. Agents have been set up for failure for a long time. Our mission is to change that.
             </p>
             <p className="mt-4 max-w-[520px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-white sm:text-[17px] lg:text-[18px]">
-              Inside, you&rsquo;ll get free courses, weekly live calls, and
-              access to Christian, his team, and a community of agents focused
-              on growth.
+              Real estate agents should only have to focus on what they do best. Selling. Agents shouldn&rsquo;t have to do everything on their own. Onyx Homes provides a proven sales process, built-in accountability and the leads. We are looking for agents that are willing to follow our proven process and put in the work that is required to be successful.
             </p>
-            <Button
-              type="button"
-              asChild
-              className="mt-8 h-auto min-h-0 rounded-none bg-white px-8 py-4 text-black shadow-none transition-colors hover:bg-gray-100 active:bg-gray-200 sm:px-10 sm:py-5"
-            >
-              <a
-                href="https://www.skool.com/start/about"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="[font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[2px] text-black sm:text-[16px] sm:tracking-[2.5px]"
-              >
-                Join the Free Community
-              </a>
-            </Button>
+            <p className="mt-4 max-w-[520px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-white sm:text-[17px] lg:text-[18px]">
+              The Vision for Onyx Homes is to become the Team that sells more homes than any other in Orange County. We will achieve that by constantly re-investing into the value we add to our agents. By giving our agents more value, we will give our customers a better experience.
+            </p>
           </div>
         </div>
       </section>
