@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { CheckCircle2 } from "lucide-react";
 import { AgentCriteriaSection } from "./sections/AgentCriteriaSection";
 import { CoreValuesSection } from "./sections/CoreValuesSection";
 import { HeroRecruitmentSection } from "./sections/HeroRecruitmentSection";
@@ -22,6 +23,7 @@ export const ThankYou = (): JSX.Element => {
         className="w-full bg-[#f2f2f2] px-4 py-10 sm:px-6 md:py-14 lg:px-8 lg:py-20"
       >
         <div className="mx-auto flex w-full max-w-[1085px] flex-col items-center text-center">
+          <CheckCircle2 className="mb-4 h-12 w-12 text-green-500 sm:mb-5 sm:h-14 sm:w-14 lg:mb-6 lg:h-16 lg:w-16" strokeWidth={1.5} />
           <h1 className="max-w-[920px] [font-family:'Montserrat',Helvetica] text-[26px] font-bold leading-[0.95] tracking-[2px] text-black sm:text-[44px] sm:leading-[0.92] sm:tracking-[4.5px] lg:text-[58px] lg:tracking-[5.5px]">
             THANKS, YOUR INTERVIEW WITH ONYX HOMES IS SCHEDULED.
           </h1>
