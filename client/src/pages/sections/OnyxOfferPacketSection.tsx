@@ -1,6 +1,6 @@
 export const OnyxOfferPacketSection = (): JSX.Element => {
   return (
-    <section className="relative w-full bg-[#f2f2f2] px-4 pb-12 pt-4 sm:px-6 sm:pb-16 lg:px-8 lg:pb-20">
+    <section className="relative w-full bg-[#f2f2f2] px-4 pb-12 sm:px-6 sm:pb-16 lg:px-8 lg:pb-20 pt-[80px]">
       <div className="mx-auto flex w-full max-w-[1400px] flex-col items-center">
         <h2 className="text-center [font-family:'Montserrat',Helvetica] text-[28px] font-bold leading-[1.05] tracking-[3px] sm:text-[40px] sm:tracking-[4.5px] lg:text-[56px] lg:tracking-[5px]">
           <span className="text-[#191919]">WE BELIEVE IN </span>
