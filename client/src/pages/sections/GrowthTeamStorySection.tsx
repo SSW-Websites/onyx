@@ -14,12 +14,7 @@ export const GrowthTeamStorySection = (): JSX.Element => {
               This is not a recruiting call, this is an interview.
             </h3>
             <div className="mt-6 [font-family:'SF_Pro-Regular',Helvetica] text-[16px] font-normal leading-[1.4] text-black sm:text-[18px] lg:text-[20px] lg:leading-[1.3] xl:text-[23px] 2xl:text-[26px] 2xl:leading-[1.25]">
-              <p>
-                You won&apos;t hear a sales pitch from us. Everything you want
-                to know about our team is in our &lsquo;Level up your
-                Business&rsquo; flip-book below. You can see our compensation
-                model, training &amp; even lead sources.
-              </p>
+              <p>You won't hear a sales pitch from us. Everything you want to know about our team is in our ‘Level up your Business’ flip-book above. You can see our compensation model, training & even lead sources.</p>
               <p className="mt-6">
                 We are not for everyone. We offer a lot from our agents and we
                 expect a lot in return.
