@@ -1,3 +1,4 @@
+import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 
 const heroRecruitmentContent = {
@@ -8,6 +9,9 @@ const heroRecruitmentContent = {
 };
 
 export const HeroRecruitmentSection = (): JSX.Element => {
+  const [location] = useLocation();
+  const isThankYou = location.startsWith("/thank-you");
+
   const handleBookClick = () => {
     const target = document.getElementById("calendly-widget");
     if (target) {
@@ -29,14 +33,16 @@ export const HeroRecruitmentSection = (): JSX.Element => {
             height="42"
           />
         </div>
-        <Button
-          type="button"
-          onClick={handleBookClick}
-          data-testid="button-navbar-book"
-          className="h-auto rounded-none bg-black px-5 py-3 [font-family:'Montserrat',Helvetica] text-[11px] font-bold uppercase tracking-[1.5px] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-8 sm:py-4 sm:text-[13px] sm:tracking-[2px] lg:px-10 lg:text-[14px] lg:tracking-[2.2px]"
-        >
-          Book Your Interview
-        </Button>
+        {!isThankYou && (
+          <Button
+            type="button"
+            onClick={handleBookClick}
+            data-testid="button-navbar-book"
+            className="h-auto rounded-none bg-black px-5 py-3 [font-family:'Montserrat',Helvetica] text-[11px] font-bold uppercase tracking-[1.5px] text-white hover:bg-black/90 active:bg-black/80 transition-colors sm:px-8 sm:py-4 sm:text-[13px] sm:tracking-[2px] lg:px-10 lg:text-[14px] lg:tracking-[2.2px]"
+          >
+            Book Your Interview
+          </Button>
+        )}
       </div>
     </header>
   );
