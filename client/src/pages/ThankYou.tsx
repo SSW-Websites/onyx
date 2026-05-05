@@ -110,6 +110,21 @@ export const ThankYou = (): JSX.Element => {
             <p className="mt-4 max-w-[520px] [font-family:'SF_Pro-Regular',Helvetica] text-[15px] font-normal leading-[1.5] text-white sm:text-[17px] lg:text-[18px]">
               The Vision for Onyx Homes is to become the Team that sells more homes than any other in Orange County. We will achieve that by constantly re-investing into the value we add to our agents. By giving our agents more value, we will give our customers a better experience.
             </p>
+            <Button
+              type="button"
+              asChild
+              className="mt-8 h-auto min-h-0 rounded-none bg-white px-8 py-4 text-black shadow-none transition-colors hover:bg-gray-100 active:bg-gray-200 sm:px-10 sm:py-5"
+            >
+              <a
+                href="https://www.skool.com/start/about"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="link-join-community"
+                className="[font-family:'Montserrat',Helvetica] text-[14px] font-bold uppercase tracking-[2px] text-black sm:text-[16px] sm:tracking-[2.5px]"
+              >
+                Join the Free Community
+              </a>
+            </Button>
           </div>
         </div>
       </section>
